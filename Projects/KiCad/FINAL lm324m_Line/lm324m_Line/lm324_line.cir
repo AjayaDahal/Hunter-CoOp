@@ -1,0 +1,34 @@
+* C:\Users\adahal\Desktop\AJ\FINAL lm324m_Line\lm324m_Line\lm324_line.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 2/3/2020 8:57:13 AM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+R2  OutputPIN1 Net-_Q2-Pad2_ 1k		
+R9  Input1+ V+ 470		
+R7  Input1- V+ 10k		
+D4  OutputPIN1 Net-_D4-Pad2_ LED		
+Q1  GND Net-_Q1-Pad2_ Net-_D1-Pad2_ 2N3904		
+R6  Input1+ Net-_J2-Pad1_ 10k		
+R5  Input4+ Net-_J2-Pad1_ 10k		
+D1  Net-_D1-Pad1_ Net-_D1-Pad2_ 1N4001		
+J1  Net-_J1-Pad1_ Net-_J1-Pad2_ CONN_01X02_MALE		
+J2  Net-_J2-Pad1_ Input1- CONN_01X02_MALE		
+K1  Net-_D1-Pad1_ ? Net-_J1-Pad1_ Net-_J1-Pad2_ ? ? ? Net-_D1-Pad2_ EC2-5NU		
+U1  OutputPIN1 Input1- Input1+ V+ ? ? ? ? ? ? GND Input4+ Input1- OutputPIN4 lm324		
+J3  Net-_J2-Pad1_ Input1- CONN_01X02_MALE		
+R10  V+ Input4+ 470		
+R8  V+ Input1- 10k		
+Q2  GND Net-_Q2-Pad2_ Net-_D2-Pad2_ 2N3904		
+D2  Net-_D2-Pad1_ Net-_D2-Pad2_ 1N4001		
+J4  Net-_J4-Pad1_ Net-_J4-Pad2_ CONN_01X02_MALE		
+K2  Net-_D2-Pad1_ ? Net-_J4-Pad1_ Net-_J4-Pad2_ ? ? ? Net-_D2-Pad2_ EC2-5NU		
+R1  OutputPIN4 Net-_Q1-Pad2_ 1k		
+D3  OutputPIN4 Net-_D3-Pad2_ LED		
+R4  Net-_D4-Pad2_ GND 270		
+R3  Net-_D3-Pad2_ GND 270		
+J5  GND V+ Screw_Terminal_1x02		
+
+.end

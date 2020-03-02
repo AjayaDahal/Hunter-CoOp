@@ -1,0 +1,2 @@
+﻿  SimpleDLLInetegration.cpp
+LINK : fatal error LNK1168: cannot open C:\Users\adahal\source\repos\SimpleDLLIntegration\Debug\SimpleDLLIntegration.dll for writing

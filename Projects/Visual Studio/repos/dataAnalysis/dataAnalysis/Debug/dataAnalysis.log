@@ -1,0 +1,3 @@
+﻿  driver.cpp
+C:\Users\adahal\source\repos\dataAnalysis\dataAnalysis\driver.cpp(22,20): warning C4018: '<': signed/unsigned mismatch
+  dataAnalysis.vcxproj -> C:\Users\adahal\source\repos\dataAnalysis\Debug\dataAnalysis.exe

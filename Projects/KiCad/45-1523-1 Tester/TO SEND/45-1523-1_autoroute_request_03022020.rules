@@ -1,0 +1,102 @@
+
+(rules PCB 45-1523-1_autoroute_request_03022020
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3894)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 4.0)
+    )
+    (layer_rule In1.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-3]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:400_um" "Via[0-3]_600:400_um" default
+  )
+  (via 
+    "Via[0-3]_600:400_um-kicad_default" "Via[0-3]_600:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-3]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(C1-Pad1)" "DUT_J15.2" "Net-(C4-Pad1)" +5VDC +12VDC +24VDC +19VDC 24VAC+
+    "24VAC-" "DUT_J3.12" "DUT_J3.11" "DUT_PWR_AC" "S2_Jump" "DUT_J15.3" "Net-(F2-Pad2)" "DUT_J3.10"
+    "Net-(F3-Pad2)" "DUT_J3.8" "Net-(F4-Pad2)" "Net-(J2-Pad1)" "Net-(J2-Pad2)" "Net-(J2-Pad9)" "DUT_J6.3" "Net-(J2-Pad15)"
+    "Net-(J2-Pad16)" "Net-(J2-Pad17)" "PWR_SW_Sig" "Net-(Q3-Pad1)" "Net-(Q4-Pad1)" "Net-(Q5-Pad1)" "Net-(Q6-Pad1)" "Net-(R25-Pad1)"
+    "K1_SOL" "J16_Volt" "K2_SOL" "J6_Volt" "K3_SOL" "K4_Volt" "K4_SOL" "K3_Volt"
+    "K2_Volt" "K1_Volt" "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" "SYNC_LED" "PWR_LED" "NUC_PWR1"
+    "NUC_PWR2" "Net-(K3-Pad12)" "Net-(D5-PadA)" "Net-(J4-Pad9)" "Net-(F6-Pad2)" "Net-(D6-PadA)" "Net-(D7-PadA)" "Net-(J1.2-Pad1)"
+    GND "Net-(D8-Pad1)" "Net-(D9-Pad1)" "Net-(D10-Pad1)" "Net-(D11-Pad1)" "DUT_J3.9" "DUT_J3.7" "J4_Current_Sensor"
+    "Net-(J6-Pad1)" "+5VDC_Ard" "Net-(J4-Pad2)" "Net-(J4-Pad4)" "Net-(J4-Pad6)" "Net-(J4-Pad8)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)

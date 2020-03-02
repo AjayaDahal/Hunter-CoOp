@@ -1,0 +1,2087 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ni_daq
+LIBS:relays
+LIBS:Relay_EC2_5NU
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:45-1523-1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BC817-40 Q3
+U 1 1 5989B5F4
+P 10100 6825
+F 0 "Q3" H 10300 6900 50  0000 L CNN
+F 1 "BC817-40" H 10300 6825 50  0001 L CNN
+F 2 "Silicon-Standard:TO-92-AMMO" H 10300 6750 50  0001 L CIN
+F 3 "" H 10100 6825 50  0001 L CNN
+	1    10100 6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC817-40 Q4
+U 1 1 5989B8C4
+P 10100 7625
+F 0 "Q4" H 10300 7700 50  0000 L CNN
+F 1 "BC817-40" H 10300 7625 50  0001 L CNN
+F 2 "Silicon-Standard:TO-92-AMMO" H 10300 7550 50  0001 L CIN
+F 3 "" H 10100 7625 50  0001 L CNN
+	1    10100 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC817-40 Q5
+U 1 1 5989D15E
+P 10100 8425
+F 0 "Q5" H 10300 8500 50  0000 L CNN
+F 1 "BC817-40" H 10300 8425 50  0001 L CNN
+F 2 "Silicon-Standard:TO-92-AMMO" H 10300 8350 50  0001 L CIN
+F 3 "" H 10100 8425 50  0001 L CNN
+	1    10100 8425
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC817-40 Q6
+U 1 1 5989D721
+P 10100 9275
+F 0 "Q6" H 10300 9350 50  0000 L CNN
+F 1 "BC817-40" H 10300 9275 50  0001 L CNN
+F 2 "Silicon-Standard:TO-92-AMMO" H 10300 9200 50  0001 L CIN
+F 3 "" H 10100 9275 50  0001 L CNN
+	1    10100 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5989FEF2
+P 10200 7125
+F 0 "#PWR01" H 10200 6875 50  0001 C CNN
+F 1 "GND" H 10200 6975 50  0000 C CNN
+F 2 "" H 10200 7125 50  0001 C CNN
+F 3 "" H 10200 7125 50  0001 C CNN
+	1    10200 7125
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5989FF2B
+P 10200 7925
+F 0 "#PWR02" H 10200 7675 50  0001 C CNN
+F 1 "GND" H 10200 7775 50  0000 C CNN
+F 2 "" H 10200 7925 50  0001 C CNN
+F 3 "" H 10200 7925 50  0001 C CNN
+	1    10200 7925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 598A0172
+P 10200 8725
+F 0 "#PWR03" H 10200 8475 50  0001 C CNN
+F 1 "GND" H 10200 8575 50  0000 C CNN
+F 2 "" H 10200 8725 50  0001 C CNN
+F 3 "" H 10200 8725 50  0001 C CNN
+	1    10200 8725
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 598A032A
+P 10200 9575
+F 0 "#PWR04" H 10200 9325 50  0001 C CNN
+F 1 "GND" H 10200 9425 50  0000 C CNN
+F 2 "" H 10200 9575 50  0001 C CNN
+F 3 "" H 10200 9575 50  0001 C CNN
+	1    10200 9575
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Bridge_+-AA D1
+U 1 1 598AC520
+P 1625 1225
+F 0 "D1" H 1675 1500 50  0000 L CNN
+F 1 "D_Bridge_+-AA" H 1675 1425 50  0000 L CNN
+F 2 "Diodes_THT:Diode_Bridge_Round_D8.9mm" H 1625 1225 50  0001 C CNN
+F 3 "" H 1625 1225 50  0001 C CNN
+	1    1625 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 598AD8B2
+P 2625 1525
+F 0 "C2" H 2650 1625 50  0000 L CNN
+F 1 "330 uF" H 2650 1425 50  0000 L CNN
+F 2 "Capacitors:CAP-PTH-2.54" H 2625 1525 50  0001 C CNN
+F 3 "" H 2625 1525 50  0001 C CNN
+	1    2625 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 598AD93A
+P 3025 1525
+F 0 "C3" H 3050 1625 50  0000 L CNN
+F 1 "330 uF" H 3050 1425 50  0000 L CNN
+F 2 "Capacitors:CAP-PTH-2.54" H 3025 1525 50  0001 C CNN
+F 3 "" H 3025 1525 50  0001 C CNN
+	1    3025 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 598ADB44
+P 3025 1875
+F 0 "#PWR05" H 3025 1625 50  0001 C CNN
+F 1 "GND" H 3025 1725 50  0000 C CNN
+F 2 "" H 3025 1875 50  0001 C CNN
+F 3 "" H 3025 1875 50  0001 C CNN
+	1    3025 1875
+	1    0    0    -1  
+$EndComp
+Text GLabel 9150 9275 0    60   Input ~ 0
+K4_SOL
+$Comp
+L C C1
+U 1 1 59A6B2CE
+P 2225 1525
+F 0 "C1" H 2250 1625 50  0000 L CNN
+F 1 "1uF" H 2250 1425 50  0000 L CNN
+F 2 "Capacitors:CAP-PTH-2.54" H 2263 1375 50  0001 C CNN
+F 3 "" H 2225 1525 50  0001 C CNN
+	1    2225 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X14 J4
+U 1 1 5C99B257
+P 15000 7975
+F 0 "J4" H 15000 8725 50  0000 C CNN
+F 1 "CONN_01X14" V 15100 7975 50  0001 C CNN
+F 2 "Conn_02x07:2X8" H 15000 7975 50  0001 C CNN
+F 3 "" H 15000 7975 50  0001 C CNN
+	1    15000 7975
+	1    0    0    -1  
+$EndComp
+Text GLabel 1025 1075 0    50   Input ~ 0
+24VAC-
+Text GLabel 14000 8425 0    50   Input ~ 0
+PWR_SW_Sig
+$Comp
+L L7805CV U3
+U 1 1 5C9C4F99
+P 5825 1225
+F 0 "U3" H 5825 1375 60  0000 C CNN
+F 1 "LM7805CV" H 5825 1525 60  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Horizontal_Reversed" H 6025 1425 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6025 1525 60  0001 L CNN
+F 4 "497-1443-5-ND" H 6025 1625 60  0001 L CNN "Digi-Key_PN"
+F 5 "L7805CV" H 6025 1725 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6025 1825 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 6025 1925 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6025 2025 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964" H 6025 2125 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 5V 1.5A TO220AB" H 6025 2225 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 6025 2325 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6025 2425 60  0001 L CNN "Status"
+	1    5825 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 5C9C7443
+P 5300 1400
+F 0 "C4" H 5300 1475 50  0000 L CNN
+F 1 "0.33uF" H 5310 1320 50  0000 L CNN
+F 2 "Capacitors:CAP-PTH-2.54" H 5300 1400 50  0001 C CNN
+F 3 "" H 5300 1400 50  0001 C CNN
+	1    5300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C5
+U 1 1 5C9C74C2
+P 6300 1400
+F 0 "C5" H 6310 1470 50  0000 L CNN
+F 1 "0.1uF" H 6310 1320 50  0000 L CNN
+F 2 "Capacitors:CAP-PTH-2.54" H 6300 1400 50  0001 C CNN
+F 3 "" H 6300 1400 50  0001 C CNN
+	1    6300 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7025 1225 2    50   Output ~ 0
++5VDC
+$Comp
+L CONN_01X18 J2
+U 1 1 5C9CFBB7
+P 15000 2725
+F 0 "J2" H 15000 3675 50  0000 C CNN
+F 1 "CONN_01X18" V 15100 2725 50  0001 C CNN
+F 2 "Conn_02x09:2X10" H 15000 2725 50  0001 C CNN
+F 3 "" H 15000 2725 50  0001 C CNN
+	1    15000 2725
+	1    0    0    -1  
+$EndComp
+Text GLabel 9350 1000 0    50   Output ~ 0
+24VAC-
+Text GLabel 1025 875  0    50   Output ~ 0
+24VAC+
+$Comp
+L L7805CV U4
+U 1 1 5C9DDAA5
+P 5825 2250
+F 0 "U4" H 5825 2400 60  0000 C CNN
+F 1 "LM7812CT" H 5825 2550 60  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Horizontal_Reversed" H 6025 2450 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6025 2550 60  0001 L CNN
+F 4 "497-1443-5-ND" H 6025 2650 60  0001 L CNN "Digi-Key_PN"
+F 5 "L7805CV" H 6025 2750 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6025 2850 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 6025 2950 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6025 3050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964" H 6025 3150 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 5V 1.5A TO220AB" H 6025 3250 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 6025 3350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6025 3450 60  0001 L CNN "Status"
+	1    5825 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C6
+U 1 1 5C9DDAAE
+P 5300 2425
+F 0 "C6" H 5310 2495 50  0000 L CNN
+F 1 "0.33uF" H 5310 2345 50  0000 L CNN
+F 2 "Capacitors:CAP-PTH-2.54" H 5300 2425 50  0001 C CNN
+F 3 "" H 5300 2425 50  0001 C CNN
+	1    5300 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C7
+U 1 1 5C9DDAB4
+P 6300 2425
+F 0 "C7" H 6310 2495 50  0000 L CNN
+F 1 "0.1uF" H 6310 2345 50  0000 L CNN
+F 2 "Capacitors:CAP-PTH-2.54" H 6300 2425 50  0001 C CNN
+F 3 "" H 6300 2425 50  0001 C CNN
+	1    6300 2425
+	1    0    0    -1  
+$EndComp
+Text GLabel 7025 2250 2    50   Output ~ 0
++12VDC
+$Comp
+L GND #PWR06
+U 1 1 5C9DDAC4
+P 5825 2650
+F 0 "#PWR06" H 5825 2400 50  0001 C CNN
+F 1 "GND" H 5825 2500 50  0000 C CNN
+F 2 "" H 5825 2650 50  0001 C CNN
+F 3 "" H 5825 2650 50  0001 C CNN
+	1    5825 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 14800 2075 0    50   Input ~ 0
+DUT_J3.12
+Text GLabel 14800 2175 0    50   Input ~ 0
+DUT_J3.11
+Text GLabel 14800 2275 0    50   Input ~ 0
+DUT_J3.10
+Text GLabel 14800 2375 0    50   Input ~ 0
+DUT_J3.9
+Text GLabel 14800 2475 0    50   Input ~ 0
+DUT_J3.8
+Text GLabel 14800 2575 0    50   Input ~ 0
+DUT_J3.7
+Text GLabel 6325 7175 0    50   Input ~ 0
+DUT_J3.12
+Text GLabel 6325 7575 0    50   Input ~ 0
+DUT_J3.11
+Text GLabel 6325 4625 0    50   Input ~ 0
+DUT_J3.10
+Text GLabel 6325 5450 0    50   Input ~ 0
+DUT_J3.9
+$Comp
+L RESISTORAXIAL-0.3 R1
+U 1 1 5CA1AD7F
+P 7925 4825
+F 0 "R1" V 7950 4875 45  0000 L BNN
+F 1 "2K" V 7950 4675 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 7925 4975 20  0001 C CNN
+F 3 "" H 7925 4825 60  0001 C CNN
+F 4 " " H 7925 5025 60  0000 C CNN "Field4"
+	1    7925 4825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTORAXIAL-0.3 R2
+U 1 1 5CA1BA61
+P 7925 5250
+F 0 "R2" V 7950 5300 45  0000 L BNN
+F 1 "50K" V 7950 5075 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 7925 5400 20  0001 C CNN
+F 3 "" H 7925 5250 60  0001 C CNN
+F 4 " " H 7925 5450 60  0000 C CNN "Field4"
+	1    7925 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTORAXIAL-0.3 R3
+U 1 1 5CA1E912
+P 7300 5025
+F 0 "R3" V 7325 5075 45  0000 L BNN
+F 1 "240" V 7325 4850 45  0000 L BNN
+F 2 "Resistors_THT:R_Axial_Power_L25.0mm_W6.4mm_P30.48mm" H 7300 5175 20  0001 C CNN
+F 3 "" H 7300 5025 60  0001 C CNN
+F 4 " " H 7300 5225 60  0000 C CNN "Field4"
+	1    7300 5025
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8325 5050 2    50   Output ~ 0
+K2_Volt
+Text GLabel 8325 6275 2    50   Output ~ 0
+K3_Volt
+$Comp
+L RESISTORAXIAL-0.3 R6
+U 1 1 5CA27A16
+P 7300 6250
+F 0 "R6" V 7325 6300 45  0000 L BNN
+F 1 "240" V 7325 6075 45  0000 L BNN
+F 2 "Resistors_THT:R_Axial_Power_L25.0mm_W6.4mm_P30.48mm" H 7300 6400 20  0001 C CNN
+F 3 "" H 7300 6250 60  0001 C CNN
+F 4 " " H 7300 6450 60  0000 C CNN "Field4"
+	1    7300 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTORAXIAL-0.3 R5
+U 1 1 5CA27A0E
+P 7925 6475
+F 0 "R5" V 7950 6525 45  0000 L BNN
+F 1 "50K" V 7950 6300 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 7925 6625 20  0001 C CNN
+F 3 "" H 7925 6475 60  0001 C CNN
+F 4 " " H 7925 6675 60  0000 C CNN "Field4"
+	1    7925 6475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTORAXIAL-0.3 R4
+U 1 1 5CA27A06
+P 7925 6050
+F 0 "R4" V 7950 6100 45  0000 L BNN
+F 1 "2K" V 7950 5900 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 7925 6200 20  0001 C CNN
+F 3 "" H 7925 6050 60  0001 C CNN
+F 4 " " H 7925 6250 60  0000 C CNN "Field4"
+	1    7925 6050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6325 6675 0    50   Input ~ 0
+DUT_J3.7
+Text GLabel 6325 5850 0    50   Input ~ 0
+DUT_J3.8
+$Comp
+L Arduino_Nano U1
+U 1 1 5CA35B83
+P 3325 6375
+F 0 "U1" H 3325 6375 60  0000 C CNN
+F 1 "Arduino_Nano" H 3325 6525 60  0001 C CNN
+F 2 "Boards:arduino_nano" H 3325 6375 60  0001 C CNN
+F 3 "" H 3325 6375 60  0000 C CNN
+	1    3325 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Nano U2
+U 1 1 5CA36932
+P 3350 9175
+F 0 "U2" H 3350 9175 60  0000 C CNN
+F 1 "Arduino_Nano" H 3350 9325 60  0001 C CNN
+F 2 "Boards:arduino_nano" H 3350 9175 60  0001 C CNN
+F 3 "" H 3350 9175 60  0000 C CNN
+	1    3350 9175
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 8525 0    50   Input ~ 0
++12VDC
+$Comp
+L GND #PWR07
+U 1 1 5CA3D855
+P 2700 10175
+F 0 "#PWR07" H 2700 9925 50  0001 C CNN
+F 1 "GND" H 2700 10025 50  0000 C CNN
+F 2 "" H 2700 10175 50  0001 C CNN
+F 3 "" H 2700 10175 50  0001 C CNN
+	1    2700 10175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5CA3E90F
+P 2675 7375
+F 0 "#PWR08" H 2675 7125 50  0001 C CNN
+F 1 "GND" H 2675 7225 50  0000 C CNN
+F 2 "" H 2675 7375 50  0001 C CNN
+F 3 "" H 2675 7375 50  0001 C CNN
+	1    2675 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC2-5NU K2
+U 1 1 5CA4CD4B
+P 13750 4325
+F 0 "K2" H 13400 4875 60  0000 C CNN
+F 1 "EC2-5NU" H 13650 4225 60  0000 C CNN
+F 2 "digikey-footprints:Relay_EC2-5NU" H 13950 4525 60  0001 L CNN
+F 3 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 13950 4625 60  0001 L CNN
+F 4 "399-11052-5-ND" H 13950 4725 60  0001 L CNN "Digi-Key_PN"
+F 5 "EC2-5NU" H 13950 4825 60  0001 L CNN "MPN"
+F 6 "Relays" H 13950 4925 60  0001 L CNN "Category"
+F 7 "Signal Relays, Up to 2 Amps" H 13950 5025 60  0001 L CNN "Family"
+F 8 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 13950 5125 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/kemet/EC2-5NU/399-11052-5-ND/4291118" H 13950 5225 60  0001 L CNN "DK_Detail_Page"
+F 10 "RELAY GEN PURPOSE DPDT 2A 5V" H 13950 5325 60  0001 L CNN "Description"
+F 11 "KEMET" H 13950 5425 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 13950 5525 60  0001 L CNN "Status"
+	1    13750 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5CA4DAB0
+P 13150 4350
+F 0 "#PWR09" H 13150 4100 50  0001 C CNN
+F 1 "GND" H 13150 4200 50  0000 C CNN
+F 2 "" H 13150 4350 50  0001 C CNN
+F 3 "" H 13150 4350 50  0001 C CNN
+	1    13150 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 12650 4125 0    50   Input ~ 0
+S2_Jump
+Text GLabel 4025 5925 2    50   Output ~ 0
+S2_Jump
+Text GLabel 14800 2875 0    50   Input ~ 0
+DUT_J6.3
+Text GLabel 4025 6025 2    50   Output ~ 0
+DUT_J6.3
+Text Notes 4425 6050 0    50   ~ 0
+Light Kit RESET
+Text Notes 4425 5950 0    50   ~ 0
+JUMP for Light Kit RESET
+Text GLabel 4025 6925 2    50   Input ~ 0
+K2_Volt
+Text GLabel 4025 6825 2    50   Input ~ 0
+K1_Volt
+Text GLabel 4025 7125 2    50   Input ~ 0
+K4_Volt
+Text GLabel 4025 7025 2    50   Input ~ 0
+K3_Volt
+$Comp
+L RESISTORAXIAL-0.3 R15
+U 1 1 5CA7ACC1
+P 11425 2325
+F 0 "R15" V 11450 2375 45  0000 L BNN
+F 1 "3K" V 11450 2175 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 11425 2475 20  0001 C CNN
+F 3 "" H 11425 2325 60  0001 C CNN
+F 4 " " H 11425 2525 60  0000 C CNN "Field4"
+	1    11425 2325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTORAXIAL-0.3 R14
+U 1 1 5CA7ACC8
+P 11425 1875
+F 0 "R14" V 11450 1925 45  0000 L BNN
+F 1 "10K" V 11450 1700 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 11425 2025 20  0001 C CNN
+F 3 "" H 11425 1875 60  0001 C CNN
+F 4 " " H 11425 2075 60  0000 C CNN "Field4"
+	1    11425 1875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5CA7FF0B
+P 11425 2525
+F 0 "#PWR010" H 11425 2275 50  0001 C CNN
+F 1 "GND" H 11425 2375 50  0000 C CNN
+F 2 "" H 11425 2525 50  0001 C CNN
+F 3 "" H 11425 2525 50  0001 C CNN
+	1    11425 2525
+	1    0    0    -1  
+$EndComp
+Text GLabel 11375 2100 0    50   Output ~ 0
+J6_Volt
+Text GLabel 4025 7225 2    50   Input ~ 0
+J6_Volt
+Text Notes 11000 2150 2    50   ~ 0
+3.0 VDC
+$Comp
+L RESISTORAXIAL-0.3 R13
+U 1 1 5CA94118
+P 9550 9275
+F 0 "R13" H 9500 9175 45  0000 L BNN
+F 1 "1K" H 9525 9325 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 9550 9425 20  0001 C CNN
+F 3 "" H 9550 9275 60  0001 C CNN
+F 4 " " H 9550 9475 60  0000 C CNN "Field4"
+	1    9550 9275
+	-1   0    0    1   
+$EndComp
+Text GLabel 9150 8425 0    60   Input ~ 0
+K3_SOL
+$Comp
+L RESISTORAXIAL-0.3 R12
+U 1 1 5CA94D8B
+P 9550 8425
+F 0 "R12" H 9500 8325 45  0000 L BNN
+F 1 "1K" H 9525 8475 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 9550 8575 20  0001 C CNN
+F 3 "" H 9550 8425 60  0001 C CNN
+F 4 " " H 9550 8625 60  0000 C CNN "Field4"
+	1    9550 8425
+	-1   0    0    1   
+$EndComp
+Text GLabel 9150 7625 0    60   Input ~ 0
+K2_SOL
+$Comp
+L RESISTORAXIAL-0.3 R11
+U 1 1 5CA95860
+P 9550 7625
+F 0 "R11" H 9500 7525 45  0000 L BNN
+F 1 "1K" H 9525 7675 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 9550 7775 20  0001 C CNN
+F 3 "" H 9550 7625 60  0001 C CNN
+F 4 " " H 9550 7825 60  0000 C CNN "Field4"
+	1    9550 7625
+	-1   0    0    1   
+$EndComp
+Text GLabel 9150 6825 0    60   Input ~ 0
+K1_SOL
+$Comp
+L RESISTORAXIAL-0.3 R10
+U 1 1 5CA95A16
+P 9550 6825
+F 0 "R10" H 9500 6725 45  0000 L BNN
+F 1 "1K" H 9525 6875 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 9550 6975 20  0001 C CNN
+F 3 "" H 9550 6825 60  0001 C CNN
+F 4 " " H 9550 7025 60  0000 C CNN "Field4"
+	1    9550 6825
+	-1   0    0    1   
+$EndComp
+Text GLabel 4025 5525 2    50   Input ~ 0
+K1_SOL
+Text GLabel 4025 5725 2    50   Input ~ 0
+K3_SOL
+Text GLabel 4025 5625 2    50   Input ~ 0
+K2_SOL
+Text GLabel 4025 5825 2    50   Input ~ 0
+K4_SOL
+Text GLabel 6325 3375 0    50   Input ~ 0
+DUT_J15.3
+Text GLabel 6325 4200 0    50   Input ~ 0
+DUT_J15.2
+$Comp
+L RESISTORAXIAL-0.3 R18
+U 1 1 5CA9B002
+P 7925 3575
+F 0 "R18" V 7950 3625 45  0000 L BNN
+F 1 "500" V 7950 3400 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 7925 3725 20  0001 C CNN
+F 3 "" H 7925 3575 60  0001 C CNN
+F 4 " " H 7925 3775 60  0000 C CNN "Field4"
+	1    7925 3575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTORAXIAL-0.3 R19
+U 1 1 5CA9B009
+P 7925 4000
+F 0 "R19" V 7950 4050 45  0000 L BNN
+F 1 "20K" V 7950 3825 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 7925 4150 20  0001 C CNN
+F 3 "" H 7925 4000 60  0001 C CNN
+F 4 " " H 7925 4200 60  0000 C CNN "Field4"
+	1    7925 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTORAXIAL-0.3 R20
+U 1 1 5CA9B010
+P 7300 3750
+F 0 "R20" V 7325 3800 45  0000 L BNN
+F 1 "240" V 7325 3575 45  0000 L BNN
+F 2 "Resistors_THT:R_Axial_Power_L25.0mm_W6.4mm_P30.48mm" H 7300 3900 20  0001 C CNN
+F 3 "" H 7300 3750 60  0001 C CNN
+F 4 " " H 7300 3950 60  0000 C CNN "Field4"
+	1    7300 3750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8325 3800 2    50   Output ~ 0
+K1_Volt
+$Comp
+L RESISTORAXIAL-0.3 R17
+U 1 1 5CAA4834
+P 11425 3550
+F 0 "R17" V 11450 3600 45  0000 L BNN
+F 1 "3K" V 11450 3400 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 11425 3700 20  0001 C CNN
+F 3 "" H 11425 3550 60  0001 C CNN
+F 4 " " H 11425 3750 60  0000 C CNN "Field4"
+	1    11425 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTORAXIAL-0.3 R16
+U 1 1 5CAA483B
+P 11425 3050
+F 0 "R16" V 11450 3100 45  0000 L BNN
+F 1 "10K" V 11450 2875 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 11425 3200 20  0001 C CNN
+F 3 "" H 11425 3050 60  0001 C CNN
+F 4 " " H 11425 3250 60  0000 C CNN "Field4"
+	1    11425 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 5CAA4841
+P 11425 3775
+F 0 "#PWR011" H 11425 3525 50  0001 C CNN
+F 1 "GND" H 11425 3625 50  0000 C CNN
+F 2 "" H 11425 3775 50  0001 C CNN
+F 3 "" H 11425 3775 50  0001 C CNN
+	1    11425 3775
+	1    0    0    -1  
+$EndComp
+Text GLabel 11375 3300 0    50   Output ~ 0
+J16_Volt
+Text Notes 11000 3350 2    50   ~ 0
+3.0 VDC
+Text GLabel 4025 7325 2    50   Input ~ 0
+J16_Volt
+Text GLabel 13525 6500 1    50   Input ~ 0
++24VDC
+$Comp
+L EC2-5NU K1
+U 1 1 5CAB76DC
+P 13750 1375
+F 0 "K1" H 13400 1925 60  0000 C CNN
+F 1 "EC2-5NU" H 13650 1275 60  0000 C CNN
+F 2 "digikey-footprints:Relay_EC2-5NU" H 13950 1575 60  0001 L CNN
+F 3 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 13950 1675 60  0001 L CNN
+F 4 "399-11052-5-ND" H 13950 1775 60  0001 L CNN "Digi-Key_PN"
+F 5 "EC2-5NU" H 13950 1875 60  0001 L CNN "MPN"
+F 6 "Relays" H 13950 1975 60  0001 L CNN "Category"
+F 7 "Signal Relays, Up to 2 Amps" H 13950 2075 60  0001 L CNN "Family"
+F 8 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 13950 2175 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/kemet/EC2-5NU/399-11052-5-ND/4291118" H 13950 2275 60  0001 L CNN "DK_Detail_Page"
+F 10 "RELAY GEN PURPOSE DPDT 2A 5V" H 13950 2375 60  0001 L CNN "Description"
+F 11 "KEMET" H 13950 2475 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 13950 2575 60  0001 L CNN "Status"
+	1    13750 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5CAB76E2
+P 13150 1375
+F 0 "#PWR012" H 13150 1125 50  0001 C CNN
+F 1 "GND" H 13150 1225 50  0000 C CNN
+F 2 "" H 13150 1375 50  0001 C CNN
+F 3 "" H 13150 1375 50  0001 C CNN
+	1    13150 1375
+	1    0    0    -1  
+$EndComp
+Text GLabel 12625 1175 0    50   Input ~ 0
+DUT_PWR_AC
+Text GLabel 4025 6125 2    50   Output ~ 0
+DUT_PWR_AC
+Text GLabel 9350 900  0    50   Output ~ 0
+24VAC+
+Text GLabel 13125 1075 0    50   Output ~ 0
+24VAC-
+Text GLabel 13125 975  0    50   Output ~ 0
+24VAC+
+Text GLabel 14100 8325 0    50   Input ~ 0
++5VDC
+$Comp
+L RESISTORAXIAL-0.3 R21
+U 1 1 5CACC30E
+P 14050 8625
+F 0 "R21" V 14075 8700 45  0000 L BNN
+F 1 "10K" V 14000 8700 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 14050 8775 20  0001 C CNN
+F 3 "" H 14050 8625 60  0001 C CNN
+F 4 " " H 14050 8825 60  0000 C CNN "Field4"
+	1    14050 8625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 5CAD03F6
+P 14050 8825
+F 0 "#PWR013" H 14050 8575 50  0001 C CNN
+F 1 "GND" H 14050 8675 50  0000 C CNN
+F 2 "" H 14050 8825 50  0001 C CNN
+F 3 "" H 14050 8825 50  0001 C CNN
+	1    14050 8825
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 8325 2    50   Input ~ 0
+PWR_SW_Sig
+NoConn ~ 14800 3575
+Text GLabel 14275 8125 0    50   Input ~ 0
+PWR_LED
+$Comp
+L RESISTORAXIAL-0.3 R22
+U 1 1 5CAE834B
+P 14600 8125
+F 0 "R22" H 14700 8150 45  0000 L BNN
+F 1 "150" H 14400 8075 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 14600 8275 20  0001 C CNN
+F 3 "" H 14600 8125 60  0001 C CNN
+F 4 " " H 14600 8325 60  0000 C CNN "Field4"
+	1    14600 8125
+	-1   0    0    1   
+$EndComp
+Text GLabel 4050 8425 2    50   Input ~ 0
+PWR_LED
+Text GLabel 13850 9150 0    50   Input ~ 0
+SYNC_LED
+$Comp
+L RESISTORAXIAL-0.3 R23
+U 1 1 5CAEF44B
+P 14075 9150
+F 0 "R23" H 14025 9050 45  0000 L BNN
+F 1 "85" H 14050 9200 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 14075 9300 20  0001 C CNN
+F 3 "" H 14075 9150 60  0001 C CNN
+F 4 " " H 14075 9350 60  0000 C CNN "Field4"
+	1    14075 9150
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 5CAEF83A
+P 14575 9625
+F 0 "#PWR014" H 14575 9375 50  0001 C CNN
+F 1 "GND" H 14575 9475 50  0000 C CNN
+F 2 "" H 14575 9625 50  0001 C CNN
+F 3 "" H 14575 9625 50  0001 C CNN
+	1    14575 9625
+	1    0    0    -1  
+$EndComp
+Text Notes 15075 8450 0    61   ~ 0
+Sol1 +24\nSol1 GND\nSol2 +24\nSol2 GND\nSol3 +24\nSol3 GND\nSol4 +24\nSol4 GND\nPwr LED\nPwr LED GND\nPwr SW\nPwr SW
+Text Notes 15075 3500 0    61   ~ 0
+DUT AC+\nDUT AC-\nDUT J3.12\nDUT J3.11\nDUT J3.10\nDUT J3.9\nDUT J3.8\nDUT J3.7\nDUT J6.1\nDUT J6.2\nDUT J6.3\nDUT J15.2\nDUT J15.3\nDUT J16.2\nDUT J16.3\nDUT S1.1\nDUT S1.2
+$Comp
+L 1N4001 D4
+U 1 1 5CB01A8C
+P 12875 4275
+F 0 "D4" H 12875 4175 50  0000 C CNN
+F 1 "1N4001" H 12875 4175 50  0001 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 12875 4100 50  0001 C CNN
+F 3 "" H 12875 4275 50  0001 C CNN
+	1    12875 4275
+	1    0    0    -1  
+$EndComp
+Text GLabel 14800 2975 0    50   Input ~ 0
+DUT_J15.2
+Text GLabel 14800 3075 0    50   Input ~ 0
+DUT_J15.3
+$Comp
+L 3413_0328_22 F1
+U 1 1 5CB1937B
+P 3475 1225
+F 0 "F1" H 3475 1325 60  0000 C CNN
+F 1 "3413_0328_22" H 3475 1425 60  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD2920" H 3675 1425 60  0001 L CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UST_1206.pdf" H 3675 1525 60  0001 L CNN
+F 4 "486-1686-1-ND" H 3675 1625 60  0001 L CNN "Digi-Key_PN"
+F 5 "3413.0328.22" H 3675 1725 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 3675 1825 60  0001 L CNN "Category"
+F 7 "Fuses" H 3675 1925 60  0001 L CNN "Family"
+F 8 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UST_1206.pdf" H 3675 2025 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/schurter-inc/3413.0328.22/486-1686-1-ND/2870095" H 3675 2125 60  0001 L CNN "DK_Detail_Page"
+F 10 "FUSE BOARD MOUNT 10A 32VAC 63VDC" H 3675 2225 60  0001 L CNN "Description"
+F 11 "Schurter Inc." H 3675 2325 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3675 2425 60  0001 L CNN "Status"
+	1    3475 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3413_0328_22 F3
+U 1 1 5CB22016
+P 6800 4625
+F 0 "F3" H 6800 4725 60  0000 C CNN
+F 1 "3413_0328_22" H 6800 4825 60  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD2920" H 7000 4825 60  0001 L CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UST_1206.pdf" H 7000 4925 60  0001 L CNN
+F 4 "486-1686-1-ND" H 7000 5025 60  0001 L CNN "Digi-Key_PN"
+F 5 "3413.0328.22" H 7000 5125 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 7000 5225 60  0001 L CNN "Category"
+F 7 "Fuses" H 7000 5325 60  0001 L CNN "Family"
+F 8 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UST_1206.pdf" H 7000 5425 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/schurter-inc/3413.0328.22/486-1686-1-ND/2870095" H 7000 5525 60  0001 L CNN "DK_Detail_Page"
+F 10 "FUSE BOARD MOUNT 10A 32VAC 63VDC" H 7000 5625 60  0001 L CNN "Description"
+F 11 "Schurter Inc." H 7000 5725 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7000 5825 60  0001 L CNN "Status"
+	1    6800 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3413_0328_22 F4
+U 1 1 5CB22DA5
+P 6800 5850
+F 0 "F4" H 6800 5950 60  0000 C CNN
+F 1 "3413_0328_22" H 6800 6050 60  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD2920" H 7000 6050 60  0001 L CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UST_1206.pdf" H 7000 6150 60  0001 L CNN
+F 4 "486-1686-1-ND" H 7000 6250 60  0001 L CNN "Digi-Key_PN"
+F 5 "3413.0328.22" H 7000 6350 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 7000 6450 60  0001 L CNN "Category"
+F 7 "Fuses" H 7000 6550 60  0001 L CNN "Family"
+F 8 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UST_1206.pdf" H 7000 6650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/schurter-inc/3413.0328.22/486-1686-1-ND/2870095" H 7000 6750 60  0001 L CNN "DK_Detail_Page"
+F 10 "FUSE BOARD MOUNT 10A 32VAC 63VDC" H 7000 6850 60  0001 L CNN "Description"
+F 11 "Schurter Inc." H 7000 6950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7000 7050 60  0001 L CNN "Status"
+	1    6800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3413_0328_22 F2
+U 1 1 5CB2410B
+P 6800 3375
+F 0 "F2" H 6800 3475 60  0000 C CNN
+F 1 "3413_0328_22" H 6800 3575 60  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD2920" H 7000 3575 60  0001 L CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UST_1206.pdf" H 7000 3675 60  0001 L CNN
+F 4 "486-1686-1-ND" H 7000 3775 60  0001 L CNN "Digi-Key_PN"
+F 5 "3413.0328.22" H 7000 3875 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 7000 3975 60  0001 L CNN "Category"
+F 7 "Fuses" H 7000 4075 60  0001 L CNN "Family"
+F 8 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UST_1206.pdf" H 7000 4175 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/schurter-inc/3413.0328.22/486-1686-1-ND/2870095" H 7000 4275 60  0001 L CNN "DK_Detail_Page"
+F 10 "FUSE BOARD MOUNT 10A 32VAC 63VDC" H 7000 4375 60  0001 L CNN "Description"
+F 11 "Schurter Inc." H 7000 4475 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7000 4575 60  0001 L CNN "Status"
+	1    6800 3375
+	1    0    0    -1  
+$EndComp
+Text Notes 10075 1025 0    61   ~ 0
+PWR IN AC+\nPWR IN AC-
+$Comp
+L FINDER-36.11.4001 K3
+U 1 1 5CB39342
+P 8775 1825
+F 0 "K3" H 9225 1825 50  0000 L CNN
+F 1 "G5Q-1" H 9425 2075 50  0001 L CNN
+F 2 "Relays_THT:Relay_SPDT_Schrack-RT1-16A-FormC_RM5mm" H 9425 1975 50  0001 L CNN
+F 3 "" H 8975 1625 50  0000 C CNN
+	1    8775 1825
+	1    0    0    -1  
+$EndComp
+Text GLabel 8300 1475 0    50   Input ~ 0
+NUC_PWR1
+Text GLabel 8325 2175 0    50   Input ~ 0
+NUC_PWR2
+$Comp
+L GND #PWR015
+U 1 1 5CB3C581
+P 10075 1650
+F 0 "#PWR015" H 10075 1400 50  0001 C CNN
+F 1 "GND" H 10075 1500 50  0000 C CNN
+F 2 "" H 10075 1650 50  0001 C CNN
+F 3 "" H 10075 1650 50  0001 C CNN
+	1    10075 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 8825 2    50   Input ~ 0
+NUC_PWR1
+Text GLabel 4050 8925 2    50   Input ~ 0
+NUC_PWR2
+$Comp
+L DIL8 U6
+U 1 1 5CB40225
+P 3400 3775
+F 0 "U6" H 3400 4025 50  0000 C CNN
+F 1 "PTN78020" H 3400 3500 50  0000 C CNN
+F 2 "DCConverters:PTN78020W" H 3400 3775 50  0001 C CNN
+F 3 "" H 3400 3775 50  0001 C CNN
+	1    3400 3775
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 3625
+$Comp
+L 0.18UF-0603-10V-10% C11
+U 1 1 5CB4130E
+P 1725 3925
+F 0 "C11" H 1785 4040 45  0000 L BNN
+F 1 "4.7uF" H 1785 3840 45  0001 L BNN
+F 2 "Capacitors:CAP-PTH-2.54" H 1725 4175 20  0001 C CNN
+F 3 "" H 1725 3925 50  0001 C CNN
+F 4 "CAP-12380" H 1725 4225 60  0001 C CNN "Field4"
+	1    1725 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.18UF-0603-10V-10% C12
+U 1 1 5CB441E0
+P 1925 3925
+F 0 "C12" H 1985 4040 45  0000 L BNN
+F 1 "4.7uF" H 1985 3840 45  0001 L BNN
+F 2 "Capacitors:CAP-PTH-2.54" H 1925 4175 20  0001 C CNN
+F 3 "" H 1925 3925 50  0001 C CNN
+F 4 "CAP-12380" H 1925 4225 60  0001 C CNN "Field4"
+	1    1925 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.18UF-0603-10V-10% C13
+U 1 1 5CB44359
+P 2125 3925
+F 0 "C13" H 2185 4040 45  0000 L BNN
+F 1 "4.7uF" H 2185 3840 45  0001 L BNN
+F 2 "Capacitors:CAP-PTH-2.54" H 2125 4175 20  0001 C CNN
+F 3 "" H 2125 3925 50  0001 C CNN
+F 4 "CAP-12380" H 2125 4225 60  0001 C CNN "Field4"
+	1    2125 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.18UF-0603-10V-10% C14
+U 1 1 5CB44360
+P 2325 3925
+F 0 "C14" H 2385 4040 45  0000 L BNN
+F 1 "4.7uF" H 2385 3840 45  0001 L BNN
+F 2 "Capacitors:CAP-PTH-2.54" H 2325 4175 20  0001 C CNN
+F 3 "" H 2325 3925 50  0001 C CNN
+F 4 "CAP-12380" H 2325 4225 60  0001 C CNN "Field4"
+	1    2325 3925
+	1    0    0    -1  
+$EndComp
+Text GLabel 1575 3725 0    50   Input ~ 0
++24VDC
+$Comp
+L RESISTOR0402 R25
+U 1 1 5CB4A510
+P 2850 3925
+F 0 "R25" H 2800 3825 45  0000 L BNN
+F 1 "2.91K" H 2775 3975 45  0000 L BNN
+F 2 "Resistors:0402" H 2850 4075 20  0001 C CNN
+F 3 "" H 2850 3925 60  0001 C CNN
+F 4 " " H 2850 4125 60  0000 C CNN "Field4"
+	1    2850 3925
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5CB4AB77
+P 2125 4175
+F 0 "#PWR016" H 2125 3925 50  0001 C CNN
+F 1 "GND" H 2125 4025 50  0000 C CNN
+F 2 "" H 2125 4175 50  0001 C CNN
+F 3 "" H 2125 4175 50  0001 C CNN
+	1    2125 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.18UF-0603-10V-10% C17
+U 1 1 5CB4D9DD
+P 4075 4025
+F 0 "C17" H 4135 4140 45  0000 L BNN
+F 1 "330uF" H 4135 3940 45  0001 L BNN
+F 2 "Capacitors:CAP-PTH-2.54" H 4075 4275 20  0001 C CNN
+F 3 "" H 4075 4025 50  0001 C CNN
+F 4 "CAP-12380" H 4075 4325 60  0001 C CNN "Field4"
+	1    4075 4025
+	1    0    0    -1  
+$EndComp
+Text GLabel 4525 3825 2    50   Input ~ 0
++19VDC
+Text GLabel 8975 2125 3    50   Input ~ 0
++19VDC
+$Comp
+L RESISTORAXIAL-0.3 R24
+U 1 1 5CB5840F
+P 9600 1500
+F 0 "R24" V 9625 1550 45  0000 L BNN
+F 1 "780" V 9625 1325 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 9600 1650 20  0001 C CNN
+F 3 "" H 9600 1500 60  0001 C CNN
+F 4 " " H 9600 1700 60  0000 C CNN "Field4"
+	1    9600 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-GREEN0603 D5
+U 1 1 5CB6019C
+P 9600 1825
+F 0 "D5" H 9700 1775 50  0000 C CNN
+F 1 "LED" V 9600 1725 50  0001 C CNN
+F 2 "LED:LED-0603" H 9600 1825 50  0001 C CNN
+F 3 "" H 9600 1825 50  0001 C CNN
+	1    9600 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 5CB620BF
+P 9600 2075
+F 0 "#PWR017" H 9600 1825 50  0001 C CNN
+F 1 "GND" H 9600 1925 50  0000 C CNN
+F 2 "" H 9600 2075 50  0001 C CNN
+F 3 "" H 9600 2075 50  0001 C CNN
+	1    9600 2075
+	1    0    0    -1  
+$EndComp
+Text Notes 3350 2500 2    100  ~ 0
+POWER
+NoConn ~ 8875 1525
+NoConn ~ 4025 5325
+NoConn ~ 4025 5425
+NoConn ~ 4025 6625
+NoConn ~ 4025 6725
+NoConn ~ 2675 5725
+NoConn ~ 2675 5925
+NoConn ~ 2675 6525
+NoConn ~ 2675 6075
+NoConn ~ 2700 8625
+NoConn ~ 2700 8725
+NoConn ~ 2700 8875
+NoConn ~ 2700 9325
+Text GLabel 4025 6525 2    60   Input ~ 0
+SYNC_LED
+NoConn ~ 3050 3825
+NoConn ~ 14050 975 
+NoConn ~ 14050 1075
+NoConn ~ 13150 4025
+NoConn ~ 14050 3925
+NoConn ~ 14050 4025
+NoConn ~ 14050 4225
+NoConn ~ 4050 8125
+NoConn ~ 4050 8225
+NoConn ~ 4050 9025
+NoConn ~ 4050 9125
+NoConn ~ 4050 9225
+NoConn ~ 4050 9325
+NoConn ~ 4050 9425
+NoConn ~ 4050 9525
+NoConn ~ 4050 9625
+NoConn ~ 4050 9725
+NoConn ~ 4050 9825
+NoConn ~ 4050 9925
+NoConn ~ 4050 10025
+NoConn ~ 4050 10125
+NoConn ~ 4050 10225
+$Comp
+L 1N4001 D3
+U 1 1 5CA43132
+P 12900 1325
+F 0 "D3" H 12900 1225 50  0000 C CNN
+F 1 "1N4001" H 12900 1225 50  0001 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 12900 1150 50  0001 C CNN
+F 3 "" H 12900 1325 50  0001 C CNN
+	1    12900 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 J3
+U 1 1 5CA4FF68
+P 15000 5400
+F 0 "J3" H 15000 5750 50  0000 C CNN
+F 1 "CONN_01X06" V 15100 5400 50  0001 C CNN
+F 2 "Connectors:1X06" H 15000 5400 50  0001 C CNN
+F 3 "" H 15000 5400 50  0001 C CNN
+	1    15000 5400
+	1    0    0    -1  
+$EndComp
+Text Notes 15075 5675 0    61   ~ 0
++24VDC IN\nGND\nFan1 +24\nFan1 GND\nFan2 +24\nFan2 GND
+$Comp
+L GND #PWR018
+U 1 1 5CA55CB4
+P 14675 5750
+F 0 "#PWR018" H 14675 5500 50  0001 C CNN
+F 1 "GND" H 14675 5600 50  0000 C CNN
+F 2 "" H 14675 5750 50  0001 C CNN
+F 3 "" H 14675 5750 50  0001 C CNN
+	1    14675 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 12975 5075 1    60   Output ~ 0
++24VDC
+$Comp
+L 3413_0328_22 F6
+U 1 1 5CA5DF24
+P 14350 5150
+F 0 "F6" H 14350 5250 60  0000 C CNN
+F 1 "3413_0328_22" H 14350 5350 60  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD2920" H 14550 5350 60  0001 L CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UST_1206.pdf" H 14550 5450 60  0001 L CNN
+F 4 "486-1686-1-ND" H 14550 5550 60  0001 L CNN "Digi-Key_PN"
+F 5 "3413.0328.22" H 14550 5650 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 14550 5750 60  0001 L CNN "Category"
+F 7 "Fuses" H 14550 5850 60  0001 L CNN "Family"
+F 8 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UST_1206.pdf" H 14550 5950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/schurter-inc/3413.0328.22/486-1686-1-ND/2870095" H 14550 6050 60  0001 L CNN "DK_Detail_Page"
+F 10 "FUSE BOARD MOUNT 10A 32VAC 63VDC" H 14550 6150 60  0001 L CNN "Description"
+F 11 "Schurter Inc." H 14550 6250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14550 6350 60  0001 L CNN "Status"
+	1    14350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTORAXIAL-0.3 R26
+U 1 1 5CA75F3B
+P 13250 5400
+F 0 "R26" V 13275 5450 45  0000 L BNN
+F 1 "1K" V 13275 5225 45  0000 L BNN
+F 2 "Resistors:AXIAL-0.3" H 13250 5550 20  0001 C CNN
+F 3 "" H 13250 5400 60  0001 C CNN
+F 4 " " H 13250 5600 60  0000 C CNN "Field4"
+	1    13250 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-GREEN0603 D6
+U 1 1 5CA75F41
+P 13250 5725
+F 0 "D6" H 13350 5675 50  0000 C CNN
+F 1 "LED" V 13250 5625 50  0001 C CNN
+F 2 "LED:LED-0603" H 13250 5725 50  0001 C CNN
+F 3 "" H 13250 5725 50  0001 C CNN
+	1    13250 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 5CA75F47
+P 13250 5975
+F 0 "#PWR019" H 13250 5725 50  0001 C CNN
+F 1 "GND" H 13250 5825 50  0000 C CNN
+F 2 "" H 13250 5975 50  0001 C CNN
+F 3 "" H 13250 5975 50  0001 C CNN
+	1    13250 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-GREEN0603 D7
+U 1 1 5CA866C7
+P 14325 9300
+F 0 "D7" H 14425 9250 50  0000 C CNN
+F 1 "LED" V 14325 9200 50  0001 C CNN
+F 2 "LED:LED-0603" H 14325 9300 50  0001 C CNN
+F 3 "" H 14325 9300 50  0001 C CNN
+	1    14325 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J1.1
+U 1 1 5CA77EF7
+P 9975 950
+F 0 "J1.1" H 9975 1100 50  0000 C CNN
+F 1 "CONN_01X02" V 10075 950 50  0001 C CNN
+F 2 "Connectors:1X02" H 9975 950 50  0001 C CNN
+F 3 "" H 9975 950 50  0001 C CNN
+	1    9975 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J1.2
+U 1 1 5CA77FB4
+P 10275 1325
+F 0 "J1.2" H 10275 1475 50  0000 C CNN
+F 1 "CONN_01X02" V 10375 1325 50  0001 C CNN
+F 2 "Connectors:1X02" H 10275 1325 50  0001 C CNN
+F 3 "" H 10275 1325 50  0001 C CNN
+	1    10275 1325
+	1    0    0    -1  
+$EndComp
+Text Notes 10375 1400 0    61   ~ 0
+NUC PWR +\nNUC PWR -
+$Comp
+L 1N4001 D8
+U 1 1 5D31EA97
+P 10550 6825
+F 0 "D8" H 10550 6725 50  0000 C CNN
+F 1 "1N4001" H 10550 6725 50  0001 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 10550 6650 50  0001 C CNN
+F 3 "" H 10550 6825 50  0001 C CNN
+	1    10550 6825
+	0    1    1    0   
+$EndComp
+Connection ~ 7300 5450
+Wire Wire Line
+	7300 5225 7300 5450
+Connection ~ 7300 4625
+Wire Wire Line
+	7300 4825 7300 4625
+Wire Wire Line
+	7925 6275 8325 6275
+Connection ~ 7300 5850
+Wire Wire Line
+	7300 6450 7300 6675
+Wire Wire Line
+	7300 5850 7300 6050
+Wire Wire Line
+	7925 5050 8325 5050
+Wire Wire Line
+	7925 3800 8325 3800
+Connection ~ 7300 3375
+Wire Wire Line
+	7300 3950 7300 4200
+Wire Wire Line
+	7300 3375 7300 3550
+Wire Wire Line
+	14750 5150 14800 5150
+Connection ~ 13700 5150
+Connection ~ 13700 5350
+Wire Wire Line
+	13700 5150 13950 5150
+Wire Wire Line
+	13700 5350 14800 5350
+Wire Wire Line
+	13700 5075 13700 5550
+Wire Wire Line
+	13700 5550 14800 5550
+Connection ~ 14675 5650
+Connection ~ 14675 5450
+Wire Wire Line
+	14800 5250 14675 5250
+Wire Wire Line
+	14675 5650 14800 5650
+Wire Wire Line
+	14675 5250 14675 5750
+Wire Wire Line
+	14800 5450 14675 5450
+Wire Wire Line
+	11425 3775 11425 3750
+Wire Wire Line
+	11425 2850 11425 2825
+Wire Wire Line
+	12625 1175 13150 1175
+Wire Wire Line
+	13850 9150 13875 9150
+Wire Wire Line
+	9600 2025 9600 2075
+Wire Wire Line
+	9600 1725 9600 1700
+Wire Wire Line
+	13050 1325 13150 1325
+Wire Wire Line
+	12750 1325 12725 1325
+Connection ~ 9600 1275
+Wire Wire Line
+	9600 1300 9600 1275
+Connection ~ 4075 3825
+Connection ~ 4075 4175
+Wire Wire Line
+	4300 4175 4300 3725
+Wire Wire Line
+	4300 3725 3750 3725
+Connection ~ 2550 4175
+Wire Wire Line
+	4075 4175 4075 4125
+Connection ~ 3850 3825
+Wire Wire Line
+	3750 3825 4525 3825
+Wire Wire Line
+	3850 3925 3850 3825
+Wire Wire Line
+	3750 3925 3850 3925
+Connection ~ 2550 3925
+Wire Wire Line
+	2650 3925 2550 3925
+Connection ~ 2325 4175
+Wire Wire Line
+	2550 4175 2550 3625
+Wire Wire Line
+	2550 3625 3050 3625
+Connection ~ 2125 4175
+Wire Wire Line
+	2325 4175 2325 4025
+Connection ~ 1925 4175
+Wire Wire Line
+	2125 4175 2125 4025
+Wire Wire Line
+	1925 4175 1925 4025
+Wire Wire Line
+	1725 4175 4300 4175
+Wire Wire Line
+	1725 4175 1725 4025
+Connection ~ 1725 3725
+Connection ~ 2325 3725
+Connection ~ 2125 3725
+Connection ~ 1925 3725
+Wire Wire Line
+	1575 3725 3050 3725
+Wire Wire Line
+	9075 1275 10075 1275
+Wire Wire Line
+	9075 1525 9075 1275
+Wire Wire Line
+	8575 2175 8575 2125
+Wire Wire Line
+	8325 2175 8575 2175
+Wire Wire Line
+	8575 1475 8575 1525
+Wire Wire Line
+	8300 1475 8575 1475
+Wire Wire Line
+	6400 3375 6325 3375
+Wire Wire Line
+	7200 3375 7925 3375
+Wire Wire Line
+	6400 5850 6325 5850
+Wire Wire Line
+	7200 5850 7925 5850
+Wire Wire Line
+	6400 4625 6325 4625
+Wire Wire Line
+	7200 4625 7925 4625
+Wire Wire Line
+	3875 1225 5425 1225
+Wire Wire Line
+	1925 1225 3075 1225
+Connection ~ 3025 1825
+Wire Wire Line
+	3025 1675 3025 1875
+Connection ~ 2625 1825
+Wire Wire Line
+	2625 1825 2625 1675
+Connection ~ 2225 1825
+Wire Wire Line
+	2225 1675 2225 1825
+Connection ~ 2225 1225
+Wire Wire Line
+	2225 1375 2225 1225
+Connection ~ 2625 1225
+Wire Wire Line
+	2625 1225 2625 1375
+Connection ~ 3025 1225
+Wire Wire Line
+	3025 1225 3025 1375
+Wire Wire Line
+	5025 8725 4050 8725
+Wire Wire Line
+	5025 6425 5025 8725
+Wire Wire Line
+	4025 6425 5025 6425
+Wire Wire Line
+	4900 6325 4025 6325
+Wire Wire Line
+	4900 8625 4900 6325
+Wire Wire Line
+	4050 8625 4900 8625
+Wire Wire Line
+	4775 8525 4050 8525
+Wire Wire Line
+	4775 6225 4775 8525
+Wire Wire Line
+	4025 6225 4775 6225
+Connection ~ 12725 4125
+Wire Wire Line
+	12725 4275 12725 4125
+Connection ~ 13150 4275
+Wire Wire Line
+	13025 4275 13150 4275
+Wire Wire Line
+	12650 4125 13150 4125
+Wire Wire Line
+	13150 4225 13150 4350
+Connection ~ 13150 1325
+Connection ~ 12725 1175
+Wire Wire Line
+	12725 1325 12725 1175
+Wire Wire Line
+	13150 1275 13150 1375
+Connection ~ 14575 9625
+Wire Wire Line
+	14800 8225 14575 8225
+Wire Wire Line
+	14325 9150 14275 9150
+Wire Wire Line
+	10200 9025 11575 9025
+Wire Wire Line
+	13475 8250 13475 9050
+Wire Wire Line
+	13875 8250 13475 8250
+Wire Wire Line
+	13875 8025 13875 8250
+Wire Wire Line
+	14275 8125 14400 8125
+Connection ~ 14050 8425
+Wire Wire Line
+	14000 8425 14800 8425
+Wire Wire Line
+	14100 8325 14800 8325
+Wire Wire Line
+	13125 1075 13150 1075
+Wire Wire Line
+	13125 975  13150 975 
+Wire Wire Line
+	9350 1000 9775 1000
+Wire Wire Line
+	9350 900  9775 900 
+Wire Wire Line
+	14600 1975 14800 1975
+Wire Wire Line
+	14600 1275 14600 1975
+Wire Wire Line
+	14050 1275 14600 1275
+Wire Wire Line
+	14700 1875 14700 1175
+Wire Wire Line
+	14800 1875 14700 1875
+Wire Wire Line
+	14700 1175 14050 1175
+Wire Wire Line
+	13525 6500 13525 7925
+Connection ~ 3875 1225
+Wire Wire Line
+	1125 1575 1625 1575
+Wire Wire Line
+	1625 875  1025 875 
+Wire Wire Line
+	12200 2825 12200 3275
+Wire Wire Line
+	12200 3275 14800 3275
+Wire Wire Line
+	12200 3650 12200 3775
+Wire Wire Line
+	14250 3650 12200 3650
+Wire Wire Line
+	14250 3175 14250 3650
+Wire Wire Line
+	14800 3175 14250 3175
+Wire Wire Line
+	14075 2775 14800 2775
+Wire Wire Line
+	14075 2525 14075 2775
+Wire Wire Line
+	11375 3300 11425 3300
+Connection ~ 11425 3775
+Wire Wire Line
+	12200 3775 11425 3775
+Wire Wire Line
+	11425 2825 12200 2825
+Connection ~ 11425 3300
+Wire Wire Line
+	11425 3250 11425 3350
+Wire Wire Line
+	14375 3375 14800 3375
+Wire Wire Line
+	14375 3700 14375 3375
+Wire Wire Line
+	13150 3700 14375 3700
+Connection ~ 7925 3800
+Connection ~ 7300 4200
+Connection ~ 7925 4200
+Wire Wire Line
+	7925 3800 7925 3775
+Wire Wire Line
+	9150 6825 9350 6825
+Wire Wire Line
+	9150 7625 9350 7625
+Wire Wire Line
+	9150 8425 9350 8425
+Wire Wire Line
+	11375 2100 11425 2100
+Connection ~ 11425 2525
+Wire Wire Line
+	11425 2525 14075 2525
+Wire Wire Line
+	14125 2675 14800 2675
+Wire Wire Line
+	14125 1675 14125 2675
+Wire Wire Line
+	11425 1675 14125 1675
+Connection ~ 11425 2100
+Wire Wire Line
+	11425 2075 11425 2125
+Wire Wire Line
+	14425 3475 14800 3475
+Wire Wire Line
+	14425 3475 14425 4125
+Wire Wire Line
+	14425 4125 14050 4125
+Wire Wire Line
+	13150 3925 13150 3700
+Connection ~ 2675 7375
+Wire Wire Line
+	2675 7275 2675 7375
+Wire Wire Line
+	7925 6275 7925 6250
+Connection ~ 7925 6675
+Connection ~ 7300 6675
+Connection ~ 7925 6275
+Connection ~ 7925 5050
+Connection ~ 7925 5450
+Wire Wire Line
+	7925 5050 7925 5025
+Connection ~ 13525 7725
+Wire Wire Line
+	10200 6625 10200 6575
+Wire Wire Line
+	14400 6600 14400 7425
+Wire Wire Line
+	14400 7425 14800 7425
+Connection ~ 4175 1825
+Connection ~ 5300 2650
+Wire Wire Line
+	4175 1825 4175 2650
+Connection ~ 4475 1225
+Wire Wire Line
+	4475 1225 4475 2250
+Connection ~ 5825 1825
+Connection ~ 5300 1825
+Wire Wire Line
+	5825 1825 5825 1625
+Wire Wire Line
+	5300 1825 5300 1500
+Wire Wire Line
+	4475 2250 5425 2250
+Connection ~ 5300 2250
+Wire Wire Line
+	5300 2325 5300 2250
+Connection ~ 5825 2650
+Wire Wire Line
+	5300 2650 5300 2525
+Wire Wire Line
+	4175 2650 6300 2650
+Wire Wire Line
+	6300 2650 6300 2525
+Connection ~ 6300 2250
+Wire Wire Line
+	6300 2250 6300 2325
+Wire Wire Line
+	6225 2250 7025 2250
+Connection ~ 5300 1225
+Wire Wire Line
+	5300 1225 5300 1300
+Wire Wire Line
+	6300 1825 6300 1500
+Connection ~ 6300 1225
+Wire Wire Line
+	6300 1300 6300 1225
+Wire Wire Line
+	6225 1225 7025 1225
+Wire Wire Line
+	13875 8025 14800 8025
+Wire Wire Line
+	13525 7925 14800 7925
+Wire Wire Line
+	13775 7825 14800 7825
+Wire Wire Line
+	13775 8200 13775 7825
+Wire Wire Line
+	13525 7725 14800 7725
+Wire Wire Line
+	14300 7625 14800 7625
+Wire Wire Line
+	14300 7400 14300 7625
+Wire Wire Line
+	14350 7525 14800 7525
+Wire Wire Line
+	14350 7300 14350 7525
+Wire Wire Line
+	14450 7325 14800 7325
+Wire Wire Line
+	14450 6500 14450 7325
+Wire Wire Line
+	1275 1825 6300 1825
+Wire Wire Line
+	1125 1075 1125 1575
+Wire Wire Line
+	1025 1075 1125 1075
+Wire Wire Line
+	9150 9275 9350 9275
+Wire Wire Line
+	1275 1825 1275 1225
+Wire Wire Line
+	1275 1225 1325 1225
+Wire Wire Line
+	1625 1575 1625 1525
+Wire Wire Line
+	1625 925  1625 875 
+Wire Wire Line
+	9750 9275 9900 9275
+Wire Wire Line
+	9750 8425 9900 8425
+Wire Wire Line
+	9750 7625 9900 7625
+Wire Wire Line
+	9750 6825 9900 6825
+Wire Wire Line
+	10200 9475 10200 9575
+Wire Wire Line
+	10200 8625 10200 8725
+Wire Wire Line
+	10200 7825 10200 7925
+Connection ~ 13525 7300
+Connection ~ 13525 6500
+Wire Wire Line
+	13525 7300 14350 7300
+Wire Wire Line
+	13525 6500 14450 6500
+Wire Wire Line
+	10200 9025 10200 9075
+Wire Wire Line
+	10200 8175 11600 8175
+Wire Wire Line
+	10200 8225 10200 8175
+Wire Wire Line
+	10200 7375 11625 7375
+Wire Wire Line
+	10200 7425 10200 7375
+Wire Wire Line
+	13250 5925 13250 5975
+Wire Wire Line
+	13250 5625 13250 5600
+Wire Wire Line
+	12975 5075 13700 5075
+Wire Wire Line
+	13250 5075 13250 5200
+Connection ~ 13250 5075
+Wire Wire Line
+	14325 9200 14325 9150
+Wire Wire Line
+	14325 9500 14325 9625
+Wire Wire Line
+	14325 9625 14575 9625
+Wire Wire Line
+	14575 9625 14575 8225
+Wire Wire Line
+	10075 1650 10075 1375
+Wire Wire Line
+	10550 6975 10550 7025
+Wire Wire Line
+	10550 7025 10200 7025
+Wire Wire Line
+	10200 7025 10200 7125
+Wire Wire Line
+	10550 6575 10550 6675
+$Comp
+L 1N4001 D9
+U 1 1 5D322426
+P 10550 7625
+F 0 "D9" H 10550 7525 50  0000 C CNN
+F 1 "1N4001" H 10550 7525 50  0001 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 10550 7450 50  0001 C CNN
+F 3 "" H 10550 7625 50  0001 C CNN
+	1    10550 7625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 7775 10550 7825
+Wire Wire Line
+	10550 7825 10200 7825
+Wire Wire Line
+	10550 7375 10550 7475
+$Comp
+L 1N4001 D10
+U 1 1 5D322C59
+P 10550 8425
+F 0 "D10" H 10550 8325 50  0000 C CNN
+F 1 "1N4001" H 10550 8325 50  0001 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 10550 8250 50  0001 C CNN
+F 3 "" H 10550 8425 50  0001 C CNN
+	1    10550 8425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 8575 10550 8625
+Wire Wire Line
+	10550 8625 10200 8625
+Wire Wire Line
+	10550 8175 10550 8275
+$Comp
+L 1N4001 D11
+U 1 1 5D32316C
+P 10550 9275
+F 0 "D11" H 10550 9175 50  0000 C CNN
+F 1 "1N4001" H 10550 9175 50  0001 C CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 10550 9100 50  0001 C CNN
+F 3 "" H 10550 9275 50  0001 C CNN
+	1    10550 9275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 9425 10550 9475
+Wire Wire Line
+	10550 9475 10200 9475
+Wire Wire Line
+	10550 9025 10550 9125
+Connection ~ 10200 7025
+Connection ~ 10200 7825
+Connection ~ 10200 8625
+Connection ~ 10200 9475
+Wire Wire Line
+	6325 6675 7925 6675
+Wire Wire Line
+	6325 5450 7925 5450
+Wire Wire Line
+	6325 4200 7925 4200
+Wire Wire Line
+	2700 10075 2700 10175
+Connection ~ 2700 10175
+$Comp
+L RESISTORAXIAL-0.3 R9
+U 1 1 5D363FE0
+P 7375 7375
+F 0 "R9" V 7400 7425 45  0000 L BNN
+F 1 "240" V 7400 7200 45  0000 L BNN
+F 2 "Resistors_THT:R_Axial_Power_L25.0mm_W6.4mm_P30.48mm" H 7375 7525 20  0001 C CNN
+F 3 "" H 7375 7375 60  0001 C CNN
+F 4 " " H 7375 7575 60  0000 C CNN "Field4"
+	1    7375 7375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X03 J5
+U 1 1 5D3641C9
+P 5825 8550
+F 0 "J5" H 5825 8750 50  0000 C CNN
+F 1 "CONN_01X03" V 5925 8550 50  0001 C CNN
+F 2 "Connectors:1X03" H 5825 8550 50  0001 C CNN
+F 3 "" H 5825 8550 50  0001 C CNN
+	1    5825 8550
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2675 5825 0    50   Output ~ 0
++5VDC_Ard
+Text GLabel 6025 8450 2    50   Input ~ 0
++5VDC_Ard
+Text GLabel 4025 7425 2    50   Input ~ 0
+J4_Current_Sensor
+Text GLabel 6025 8550 2    50   Output ~ 0
+J4_Current_Sensor
+$Comp
+L GND #PWR020
+U 1 1 5D36F385
+P 6175 8650
+F 0 "#PWR020" H 6175 8400 50  0001 C CNN
+F 1 "GND" H 6175 8500 50  0000 C CNN
+F 2 "" H 6175 8650 50  0001 C CNN
+F 3 "" H 6175 8650 50  0001 C CNN
+	1    6175 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 8650 6175 8650
+Wire Wire Line
+	6325 7175 7375 7175
+$Comp
+L CONN_01X02 J6
+U 1 1 5D370131
+P 6850 8000
+F 0 "J6" H 6850 8150 50  0000 C CNN
+F 1 "CONN_01X02" V 6950 8000 50  0001 C CNN
+F 2 "Connectors:1X02" H 6850 8000 50  0001 C CNN
+F 3 "" H 6850 8000 50  0001 C CNN
+	1    6850 8000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6325 7575 6800 7575
+Wire Wire Line
+	6800 7575 6800 7800
+Wire Wire Line
+	6900 7800 6900 7575
+Wire Wire Line
+	6900 7575 7375 7575
+$Comp
+L EC2-5NU K4
+U 1 1 5E5980D8
+P 12325 6675
+F 0 "K4" H 11975 7225 60  0000 C CNN
+F 1 "EC2-5NU" H 12225 6575 60  0000 C CNN
+F 2 "digikey-footprints:Relay_EC2-5NU" H 12525 6875 60  0001 L CNN
+F 3 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 12525 6975 60  0001 L CNN
+F 4 "399-11052-5-ND" H 12525 7075 60  0001 L CNN "Digi-Key_PN"
+F 5 "EC2-5NU" H 12525 7175 60  0001 L CNN "MPN"
+F 6 "Relays" H 12525 7275 60  0001 L CNN "Category"
+F 7 "Signal Relays, Up to 2 Amps" H 12525 7375 60  0001 L CNN "Family"
+F 8 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 12525 7475 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/kemet/EC2-5NU/399-11052-5-ND/4291118" H 12525 7575 60  0001 L CNN "DK_Detail_Page"
+F 10 "RELAY GEN PURPOSE DPDT 2A 5V" H 12525 7675 60  0001 L CNN "Description"
+F 11 "KEMET" H 12525 7775 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12525 7875 60  0001 L CNN "Status"
+	1    12325 6675
+	1    0    0    -1  
+$EndComp
+Text GLabel 11725 6475 0    50   Input ~ 0
++5VDC
+$Comp
+L GND #PWR021
+U 1 1 5E5A5D75
+P 11275 6275
+F 0 "#PWR021" H 11275 6025 50  0001 C CNN
+F 1 "GND" H 11275 6125 50  0000 C CNN
+F 2 "" H 11275 6275 50  0001 C CNN
+F 3 "" H 11275 6275 50  0001 C CNN
+	1    11275 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11275 6275 11725 6275
+Wire Wire Line
+	12625 6475 13000 6475
+Wire Wire Line
+	13000 6475 13000 6600
+Wire Wire Line
+	13000 6600 14400 6600
+$Comp
+L EC2-5NU K5
+U 1 1 5E5A7C0E
+P 12225 7475
+F 0 "K5" H 11875 8025 60  0000 C CNN
+F 1 "EC2-5NU" H 12125 7375 60  0000 C CNN
+F 2 "digikey-footprints:Relay_EC2-5NU" H 12425 7675 60  0001 L CNN
+F 3 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 12425 7775 60  0001 L CNN
+F 4 "399-11052-5-ND" H 12425 7875 60  0001 L CNN "Digi-Key_PN"
+F 5 "EC2-5NU" H 12425 7975 60  0001 L CNN "MPN"
+F 6 "Relays" H 12425 8075 60  0001 L CNN "Category"
+F 7 "Signal Relays, Up to 2 Amps" H 12425 8175 60  0001 L CNN "Family"
+F 8 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 12425 8275 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/kemet/EC2-5NU/399-11052-5-ND/4291118" H 12425 8375 60  0001 L CNN "DK_Detail_Page"
+F 10 "RELAY GEN PURPOSE DPDT 2A 5V" H 12425 8475 60  0001 L CNN "Description"
+F 11 "KEMET" H 12425 8575 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12425 8675 60  0001 L CNN "Status"
+	1    12225 7475
+	1    0    0    -1  
+$EndComp
+Text GLabel 11625 7275 0    50   Input ~ 0
++5VDC
+$Comp
+L GND #PWR022
+U 1 1 5E5A7C15
+P 11175 7075
+F 0 "#PWR022" H 11175 6825 50  0001 C CNN
+F 1 "GND" H 11175 6925 50  0000 C CNN
+F 2 "" H 11175 7075 50  0001 C CNN
+F 3 "" H 11175 7075 50  0001 C CNN
+	1    11175 7075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11175 7075 11625 7075
+$Comp
+L EC2-5NU K6
+U 1 1 5E5A85DC
+P 12200 8275
+F 0 "K6" H 11850 8825 60  0000 C CNN
+F 1 "EC2-5NU" H 12100 8175 60  0000 C CNN
+F 2 "digikey-footprints:Relay_EC2-5NU" H 12400 8475 60  0001 L CNN
+F 3 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 12400 8575 60  0001 L CNN
+F 4 "399-11052-5-ND" H 12400 8675 60  0001 L CNN "Digi-Key_PN"
+F 5 "EC2-5NU" H 12400 8775 60  0001 L CNN "MPN"
+F 6 "Relays" H 12400 8875 60  0001 L CNN "Category"
+F 7 "Signal Relays, Up to 2 Amps" H 12400 8975 60  0001 L CNN "Family"
+F 8 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 12400 9075 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/kemet/EC2-5NU/399-11052-5-ND/4291118" H 12400 9175 60  0001 L CNN "DK_Detail_Page"
+F 10 "RELAY GEN PURPOSE DPDT 2A 5V" H 12400 9275 60  0001 L CNN "Description"
+F 11 "KEMET" H 12400 9375 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12400 9475 60  0001 L CNN "Status"
+	1    12200 8275
+	1    0    0    -1  
+$EndComp
+Text GLabel 11600 8075 0    50   Input ~ 0
++5VDC
+$Comp
+L GND #PWR023
+U 1 1 5E5A85E3
+P 11150 7875
+F 0 "#PWR023" H 11150 7625 50  0001 C CNN
+F 1 "GND" H 11150 7725 50  0000 C CNN
+F 2 "" H 11150 7875 50  0001 C CNN
+F 3 "" H 11150 7875 50  0001 C CNN
+	1    11150 7875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 7875 11600 7875
+Wire Wire Line
+	12500 8075 13150 8075
+$Comp
+L EC2-5NU K7
+U 1 1 5E5A8DEA
+P 12175 9125
+F 0 "K7" H 11825 9675 60  0000 C CNN
+F 1 "EC2-5NU" H 12075 9025 60  0000 C CNN
+F 2 "digikey-footprints:Relay_EC2-5NU" H 12375 9325 60  0001 L CNN
+F 3 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 12375 9425 60  0001 L CNN
+F 4 "399-11052-5-ND" H 12375 9525 60  0001 L CNN "Digi-Key_PN"
+F 5 "EC2-5NU" H 12375 9625 60  0001 L CNN "MPN"
+F 6 "Relays" H 12375 9725 60  0001 L CNN "Category"
+F 7 "Signal Relays, Up to 2 Amps" H 12375 9825 60  0001 L CNN "Family"
+F 8 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 12375 9925 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/kemet/EC2-5NU/399-11052-5-ND/4291118" H 12375 10025 60  0001 L CNN "DK_Detail_Page"
+F 10 "RELAY GEN PURPOSE DPDT 2A 5V" H 12375 10125 60  0001 L CNN "Description"
+F 11 "KEMET" H 12375 10225 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12375 10325 60  0001 L CNN "Status"
+	1    12175 9125
+	1    0    0    -1  
+$EndComp
+Text GLabel 11575 8925 0    50   Input ~ 0
++5VDC
+$Comp
+L GND #PWR024
+U 1 1 5E5A8DF1
+P 11125 8725
+F 0 "#PWR024" H 11125 8475 50  0001 C CNN
+F 1 "GND" H 11125 8575 50  0000 C CNN
+F 2 "" H 11125 8725 50  0001 C CNN
+F 3 "" H 11125 8725 50  0001 C CNN
+	1    11125 8725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11125 8725 11575 8725
+Wire Wire Line
+	12475 8925 12850 8925
+Wire Wire Line
+	10200 6575 11725 6575
+Wire Wire Line
+	12525 7275 13350 7275
+Wire Wire Line
+	13350 7275 13350 7400
+Wire Wire Line
+	13350 7400 14300 7400
+Wire Wire Line
+	13150 8075 13150 8200
+Wire Wire Line
+	13150 8200 13775 8200
+Wire Wire Line
+	12850 8925 12850 9050
+Wire Wire Line
+	12850 9050 13475 9050
+NoConn ~ 12475 9025
+NoConn ~ 12475 8825
+NoConn ~ 12475 8725
+NoConn ~ 11575 8825
+NoConn ~ 11600 7975
+NoConn ~ 12500 7975
+NoConn ~ 12500 7875
+NoConn ~ 12500 8175
+NoConn ~ 12525 7075
+NoConn ~ 12525 7175
+NoConn ~ 12525 7375
+NoConn ~ 11625 7175
+NoConn ~ 12625 6575
+NoConn ~ 12625 6375
+NoConn ~ 12625 6275
+NoConn ~ 11725 6375
+Connection ~ 10550 6575
+Connection ~ 10550 7375
+Connection ~ 10550 8175
+Connection ~ 10550 9025
+$EndSCHEMATC
