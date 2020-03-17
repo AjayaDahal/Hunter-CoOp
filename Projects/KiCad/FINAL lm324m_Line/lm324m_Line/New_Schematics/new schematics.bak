@@ -28,17 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:2N3904
-LIBS:lm324_line
-LIBS:lm324_line-cache
-LIBS:3266W-1-103LF
-LIBS:Relay
-LIBS:Regulator_Switching
-LIBS:Regulator_Linear
-LIBS:FUSE
-LIBS:C320C104M5U5TA
-LIBS:ARDUINO_NANO
-LIBS:L293D
 LIBS:new schematics-cache
 EELAYER 25 0
 EELAYER END
@@ -71,7 +60,7 @@ U 1 1 5E398223
 P 11050 1150
 F 0 "J5" H 11050 1400 50  0000 C TNN
 F 1 "Screw_Terminal_1x02" V 10900 950 50  0000 C TNN
-F 2 "2 pin male connector:2_pin_male_connector" H 11050 925 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm new:PinHeader_1x02_P2.54mm_Vertical" H 11050 925 50  0001 C CNN
 F 3 "" H 11025 1150 50  0001 C CNN
 	1    11050 1150
 	-1   0    0    1   
@@ -107,7 +96,7 @@ U 1 1 5E398380
 P 3800 6950
 F 0 "Q1" H 3400 7250 50  0000 L BNN
 F 1 "2N3904" H 3400 6650 50  0000 L BNN
-F 2 "2N3904:TO92127P495H495-3" H 3800 6950 50  0001 L BNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 3800 6950 50  0001 L BNN
 F 3 "February 2003" H 3800 6950 50  0001 L BNN
 F 4 "STMicroelectronics" H 3800 6950 50  0001 L BNN "Field4"
 F 5 "4.95 mm" H 3800 6950 50  0001 L BNN "Field5"
@@ -143,7 +132,7 @@ U 1 1 5E39938D
 P 4400 6650
 F 0 "D3" H 4400 6750 50  0000 C CNN
 F 1 "LED" H 4400 6550 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm" H 4400 6650 50  0001 C CNN
+F 2 "LEDs:LED_D4.0mm" H 4400 6650 50  0001 C CNN
 F 3 "" H 4400 6650 50  0001 C CNN
 	1    4400 6650
 	0    -1   -1   0   
@@ -165,7 +154,7 @@ U 1 1 5E399BD6
 P 3100 6450
 F 0 "D1" H 3100 6550 50  0000 C CNN
 F 1 "1N4001" H 3100 6350 50  0000 C CNN
-F 2 "Diodes_THT:D_T-1_P12.70mm_Horizontal" H 3100 6275 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P15.24mm_Horizontal" H 3100 6275 50  0001 C CNN
 F 3 "" H 3100 6450 50  0001 C CNN
 	1    3100 6450
 	1    0    0    -1  
@@ -176,7 +165,7 @@ U 1 1 5E399E3B
 P 3250 4250
 F 0 "R2" V 3350 4150 50  0000 L CNN
 F 1 "10k" V 3150 4200 50  0000 L CNN
-F 2 "pot:TRIM_3266W-1-103LF" V 3180 4250 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_ACP_CA6v_Horizontal" V 3180 4250 50  0001 C CNN
 F 3 "" H 3250 4250 50  0001 C CNN
 	1    3250 4250
 	0    1    1    0   
@@ -203,7 +192,7 @@ U 1 1 5E39C3AA
 P 8200 6150
 F 0 "J3" H 8200 6425 50  0000 C CNN
 F 1 "CONN_01X03_MALE" H 8225 5875 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-41791-03_03x3.96mm_Straight" H 8200 6350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm new:PinHeader_1x03_P2.54mm_Vertical" H 8200 6350 50  0001 C CNN
 F 3 "" H 8200 6350 50  0001 C CNN
 	1    8200 6150
 	0    -1   -1   0   
@@ -241,7 +230,7 @@ U 1 1 5E39F0D7
 P 3850 1250
 F 0 "Q2" H 3450 1550 50  0000 L BNN
 F 1 "2N3904" H 3450 950 50  0000 L BNN
-F 2 "2N3904:TO92127P495H495-3" H 3850 1250 50  0001 L BNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 3850 1250 50  0001 L BNN
 F 3 "February 2003" H 3850 1250 50  0001 L BNN
 F 4 "STMicroelectronics" H 3850 1250 50  0001 L BNN "Field4"
 F 5 "4.95 mm" H 3850 1250 50  0001 L BNN "Field5"
@@ -255,7 +244,7 @@ U 1 1 5E39F0DD
 P 4450 950
 F 0 "D4" H 4450 1050 50  0000 C CNN
 F 1 "LED" H 4450 850 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm" H 4450 950 50  0001 C CNN
+F 2 "LEDs:LED_D4.0mm" H 4450 950 50  0001 C CNN
 F 3 "" H 4450 950 50  0001 C CNN
 	1    4450 950 
 	0    -1   -1   0   
@@ -277,7 +266,7 @@ U 1 1 5E39F0E9
 P 3150 750
 F 0 "D2" H 3150 850 50  0000 C CNN
 F 1 "1N4001" H 3150 650 50  0000 C CNN
-F 2 "Diodes_THT:D_T-1_P12.70mm_Horizontal" H 3150 575 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P15.24mm_Horizontal" H 3150 575 50  0001 C CNN
 F 3 "" H 3150 750 50  0001 C CNN
 	1    3150 750 
 	1    0    0    -1  
@@ -292,7 +281,7 @@ U 1 1 5E39F0F3
 P 9150 6150
 F 0 "J4" H 9150 6425 50  0000 C CNN
 F 1 "CONN_01X03_MALE" H 9175 5875 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-41791-03_03x3.96mm_Straight" H 9150 6350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm new:PinHeader_1x03_P2.54mm_Vertical" H 9150 6350 50  0001 C CNN
 F 3 "" H 9150 6350 50  0001 C CNN
 	1    9150 6150
 	0    -1   -1   0   
@@ -305,7 +294,7 @@ U 1 1 5E3A002A
 P 2200 4250
 F 0 "J2" H 2200 4525 50  0000 C CNN
 F 1 "CONN_01X03_MALE (DATA) PIN 3" H 2200 3900 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-41791-03_03x3.96mm_Straight" H 2200 4450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm new:PinHeader_1x03_P2.54mm_Vertical" H 2200 4450 50  0001 C CNN
 F 3 "" H 2200 4450 50  0001 C CNN
 	1    2200 4250
 	1    0    0    -1  
@@ -360,7 +349,7 @@ U 1 1 5E3AA8DC
 P 10650 1600
 F 0 "0.1uf1" H 10675 1700 50  0000 L CNN
 F 1 "CP" H 10675 1500 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 10688 1450 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 10688 1450 50  0001 C CNN
 F 3 "" H 10650 1600 50  0001 C CNN
 	1    10650 1600
 	-1   0    0    1   
@@ -399,7 +388,7 @@ U 1 1 5E3B2CF7
 P 3250 3100
 F 0 "R1" V 3350 3000 50  0000 L CNN
 F 1 "10k" V 3150 3050 50  0000 L CNN
-F 2 "pot:TRIM_3266W-1-103LF" V 3180 3100 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_ACP_CA6v_Horizontal" V 3180 3100 50  0001 C CNN
 F 3 "" H 3250 3100 50  0001 C CNN
 	1    3250 3100
 	0    1    1    0   
@@ -410,7 +399,7 @@ U 1 1 5E3B2CFD
 P 2200 3100
 F 0 "J1" H 2200 3375 50  0000 C CNN
 F 1 "CONN_01X03_MALE (DATA) PIN 3" H 2250 2750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-41791-03_03x3.96mm_Straight" H 2200 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm new:PinHeader_1x03_P2.54mm_Vertical" H 2200 3300 50  0001 C CNN
 F 3 "" H 2200 3300 50  0001 C CNN
 	1    2200 3100
 	1    0    0    -1  
@@ -480,7 +469,7 @@ Text GLabel 5250 5550 0    60   Input ~ 0
 arOutputPIN3
 Text GLabel 9400 4650 3    60   Input ~ 0
 arOutputPIN4
-Text GLabel 11000 4700 3    60   Input ~ 0
+Text GLabel 10600 3250 1    60   Input ~ 0
 5V+ard
 Text GLabel 8400 4700 3    60   Input ~ 0
 GND
@@ -568,7 +557,7 @@ U 1 1 5E3EC774
 P 8950 1950
 F 0 "J6" H 8950 2225 50  0000 C CNN
 F 1 "CONN_01X03_MALE 1-Ard" V 8800 2150 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-41791-03_03x3.96mm_Straight" H 8950 2150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm new:PinHeader_1x03_P2.54mm_Vertical" H 8950 2150 50  0001 C CNN
 F 3 "" H 8950 2150 50  0001 C CNN
 	1    8950 1950
 	-1   0    0    1   
@@ -583,7 +572,7 @@ U 1 1 5E3F1BA8
 P 10300 700
 F 0 "J7" H 10300 875 50  0000 C CNN
 F 1 "9V+" H 10100 800 50  0000 C CNN
-F 2 "2 pin male connector:2_pin_male_connector" H 10300 800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm new:PinHeader_1x03_P2.54mm_Horizontal" H 10300 800 50  0001 C CNN
 F 3 "" H 10300 800 50  0001 C CNN
 	1    10300 700 
 	1    0    0    -1  
@@ -779,7 +768,7 @@ U 1 1 5E3F545E
 P 10400 6100
 F 0 "J8" H 10400 6475 50  0000 C CNN
 F 1 "CONN Arduino Backup Motor driver" H 10750 5700 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-41791-04_04x3.96mm_Straight" H 10400 6400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm new:PinHeader_1x04_P2.54mm_Horizontal" H 10400 6400 50  0001 C CNN
 F 3 "" H 10400 6400 50  0001 C CNN
 	1    10400 6100
 	0    -1   -1   0   
@@ -800,7 +789,6 @@ NoConn ~ 9200 4650
 NoConn ~ 9300 4650
 NoConn ~ 10800 4650
 NoConn ~ 10900 4650
-NoConn ~ 10600 3250
 NoConn ~ 10500 3250
 NoConn ~ 10300 3250
 NoConn ~ 10200 3250
@@ -812,7 +800,6 @@ NoConn ~ 9700 3250
 NoConn ~ 9600 3250
 NoConn ~ 9400 3250
 NoConn ~ 9300 3250
-Connection ~ 6850 5850
 Wire Wire Line
 	10600 600  10700 600 
 Wire Wire Line
@@ -826,9 +813,14 @@ Connection ~ 4450 1250
 Wire Wire Line
 	4400 6800 4400 6950
 Connection ~ 4400 6950
-Wire Wire Line
-	11000 4650 11000 4700
 Connection ~ 10500 3250
 Wire Wire Line
 	6900 5850 6850 5850
+Text GLabel 2850 825  0    60   Input ~ 0
+V+
+Connection ~ 2850 825 
+Text GLabel 2800 6550 0    60   Input ~ 0
+V+
+Connection ~ 2800 6550
+NoConn ~ 11000 4650
 $EndSCHEMATC

@@ -28,96 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:1w1700
-LIBS:4n35_opto
-LIBS:5V_buck
-LIBS:24MHz
-LIBS:74hc32
-LIBS:0850bm14e0016
-LIBS:2450BM14G0011
-LIBS:18650-lipobattery
-LIBS:adg733
-LIBS:AMS1117-3V3
-LIBS:antenna_2.4GHz
-LIBS:cc1310_7x7
-LIBS:cc1310_7x7_new
-LIBS:cc2650
-LIBS:cc2650_7x7
-LIBS:cdd-11n
-LIBS:cnt-rj45_10pin
-LIBS:connectors
-LIBS:cp2102
-LIBS:crystal_24MHz
-LIBS:crystal-new
-LIBS:dd04cvsa-5_6_9_12v
-LIBS:df08s1_bridge_rec-ic
-LIBS:dm3at-sf-pej
-LIBS:edge_sma
-LIBS:esp-12e
-LIBS:esp-32_wroom32_Exact
-LIBS:esp-32_wroom32_rectangle
-LIBS:fabdetails
-LIBS:henlv_5v_2a
-LIBS:henlv-ac220s3_3dcs-3w
-LIBS:henlv-ac220s5dcs-3w
-LIBS:HL6528-G
-LIBS:hlw8012
-LIBS:HM-10
-LIBS:ic-cpu
-LIBS:ic-io
-LIBS:ic-misc
-LIBS:ic-power
-LIBS:inductor
-LIBS:inductor_L
-LIBS:JTAG
-LIBS:L293DNE
-LIBS:L293N
-LIBS:lcd16x2_i2c
 LIBS:logo
-LIBS:lp5907_ldo_250ma
-LIBS:ltr-303als
-LIBS:mff2_embeded_sim
-LIBS:mic29302
-LIBS:mic35302
-LIBS:Micro_USB_B
-LIBS:mountinghole
-LIBS:nlas5223
-LIBS:opto-other
-LIBS:passive
-LIBS:PROBE
-LIBS:prtr5v0u2x
-LIBS:rfid_reader
-LIBS:RFM_module
-LIBS:samd20e18-au
-LIBS:samd20gxxa-au
-LIBS:samd21gxxa-au
-LIBS:saml21gxxb-mu
-LIBS:sfm-110-02-s-d-a-k-tr
-LIBS:si7006
-LIBS:sim_holder
-LIBS:SIM800C
-LIBS:simcardholder_shield
-LIBS:simcom
-LIBS:smf05c
-LIBS:Songle_SRD-03VDC-SL-C
-LIBS:sw_push_small_h
-LIBS:switch_dpdt
-LIBS:switch_spdt
 LIBS:switches
-LIBS:touchpad_single
-LIBS:tps782
-LIBS:TPS61021A
-LIBS:tps63051
-LIBS:TPS562201
-LIBS:triac_board
-LIBS:ttp224n-bsb
-LIBS:txb0108
-LIBS:usb_a_4_pins
-LIBS:usb_a_male_pcb
-LIBS:vbus053az
-LIBS:via
-LIBS:xbee
-LIBS:arduino
 LIBS:45-1599-1 PCB-cache
 EELAYER 25 0
 EELAYER END
@@ -1587,7 +1499,7 @@ L RESISTOR 3K1
 U 1 1 5E561FFC
 P 9100 4350
 F 0 "3K1" H 9100 4435 60  0000 C CNB
-F 1 "RESISTOR" H 9100 4275 40  0000 C CNN
+F 1 "R6" H 9100 4275 40  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 9100 4210 40  0001 C CNN
 F 3 "" H 9100 4450 60  0000 C CNN
 F 4 "-" H 9100 4510 45  0001 C CNN "Part"
@@ -1600,7 +1512,7 @@ L RESISTOR 1K1
 U 1 1 5E562004
 P 9100 4800
 F 0 "1K1" H 9100 4885 60  0000 C CNB
-F 1 "RESISTOR" H 9100 4725 40  0000 C CNN
+F 1 "R7" H 9100 4725 40  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 9100 4660 40  0001 C CNN
 F 3 "" H 9100 4900 60  0000 C CNN
 F 4 "-" H 9100 4960 45  0001 C CNN "Part"
@@ -1618,7 +1530,7 @@ Wire Wire Line
 	9100 4600 9525 4600
 Connection ~ 9100 4600
 Text GLabel 9525 4600 2    60   Input ~ 0
-voltagDividerAnalogCheck
+voltageDividerAnalogCheck
 $Comp
 L GND #PWR014
 U 1 1 5E562013
@@ -1638,7 +1550,7 @@ Wire Wire Line
 	8050 3875 8050 3500
 Connection ~ 8050 3875
 Text GLabel 4875 6700 0    60   Input ~ 0
-voltagDividerAnalogCheck
+voltageDividerAnalogCheck
 Wire Wire Line
 	9100 4250 9100 4150
 Wire Wire Line

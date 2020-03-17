@@ -1,0 +1,67 @@
+Cmp-Mod V01 Created by PcbNew   date = 3/6/2020 6:37:33 AM
+
+BeginCmp
+TimeStamp = 5E6244CB
+Path = 
+Reference = .;
+ValeurCmp = .;
+IdModule  = MountingHole:MountingHole_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E6244C4
+Path = 
+Reference = .;
+ValeurCmp = .;
+IdModule  = MountingHole:MountingHole_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E6244BD
+Path = 
+Reference = .;
+ValeurCmp = .;
+IdModule  = MountingHole:MountingHole_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E6244B6
+Path = 
+Reference = .;
+ValeurCmp = .;
+IdModule  = MountingHole:MountingHole_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E62A826
+Path = 
+Reference = .;
+ValeurCmp = .;
+IdModule  = MountingHole:MountingHole_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E62A843
+Path = 
+Reference = .;
+ValeurCmp = .;
+IdModule  = MountingHole:MountingHole_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E62A809
+Path = 
+Reference = .;
+ValeurCmp = .;
+IdModule  = MountingHole:MountingHole_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E62A7DB
+Path = 
+Reference = .;
+ValeurCmp = .;
+IdModule  = MountingHole:MountingHole_2.1mm;
+EndCmp
+
+EndListe

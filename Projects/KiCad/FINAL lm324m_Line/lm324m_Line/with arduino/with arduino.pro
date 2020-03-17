@@ -1,6 +1,6 @@
-update=2/6/2020 2:34:57 PM
+update=3/5/2020 1:20:44 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -42,7 +42,7 @@ version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../New_Schematics/with arduino.net
+LastNetListRead=../lm324_line.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524
