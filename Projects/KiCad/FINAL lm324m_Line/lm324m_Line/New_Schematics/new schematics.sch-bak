@@ -380,7 +380,7 @@ U 1 1 5E3F545E
 P 9050 5600
 F 0 "J5" H 9050 5975 50  0000 C CNN
 F 1 "CONN Arduino Backup Motor driver" H 9400 5200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9050 5900 50  0001 C CNN
+F 2 "" H 9050 5900 50  0001 C CNN
 F 3 "" H 9050 5900 50  0001 C CNN
 	1    9050 5600
 	0    -1   -1   0   
@@ -539,6 +539,17 @@ Text GLabel 2150 5300 2    60   Input ~ 0
 OUT
 Text GLabel 2150 5400 2    60   Input ~ 0
 Adjust
+$Comp
+L power:GND #PWR02
+U 1 1 5E7DC45F
+P 2750 5550
+F 0 "#PWR02" H 2750 5300 50  0001 C CNN
+F 1 "GND" H 2700 5400 50  0000 C CNN
+F 2 "" H 2750 5550 50  0001 C CNN
+F 3 "" H 2750 5550 50  0001 C CNN
+	1    2750 5550
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2750 5550 2750 5500
 Wire Wire Line
@@ -588,6 +599,17 @@ Wire Wire Line
 Wire Wire Line
 	2750 6850 2750 6550
 Connection ~ 2300 6850
+$Comp
+L power:GND #PWR01
+U 1 1 5E80FF69
+P 2300 6950
+F 0 "#PWR01" H 2300 6700 50  0001 C CNN
+F 1 "GND" H 2305 6777 50  0000 C CNN
+F 2 "" H 2300 6950 50  0001 C CNN
+F 3 "" H 2300 6950 50  0001 C CNN
+	1    2300 6950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2300 6850 2300 6950
 Wire Wire Line
@@ -1179,6 +1201,17 @@ Wire Wire Line
 	14100 1700 14100 1750
 Wire Wire Line
 	15050 1700 15050 1750
+$Comp
+L power:GND #PWR04
+U 1 1 5EAC2D21
+P 14600 1750
+F 0 "#PWR04" H 14600 1500 50  0001 C CNN
+F 1 "GND" H 14605 1577 50  0000 C CNN
+F 2 "" H 14600 1750 50  0001 C CNN
+F 3 "" H 14600 1750 50  0001 C CNN
+	1    14600 1750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	14600 1700 14600 1750
 Wire Wire Line
@@ -1346,20 +1379,14 @@ Wire Bus Line
 Text Notes 5850 2300 0    118  Italic 24
 Lm324N circuit for simple line follower with backup circuit\n provided by arduino nano for 2 sensor input and 2 motors output. \n\nBy: Ajaya Dahal\n
 $Comp
-L Device:Fuse F1
+L Device:Fuse F?
 U 1 1 5F09025E
 P 3050 5950
-F 0 "F1" V 3000 5800 50  0000 C CNN
-F 1 "Fuse" V 3150 5950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" V 2980 5950 50  0001 C CNN
+F 0 "F?" V 2853 5950 50  0000 C CNN
+F 1 "Fuse" V 2944 5950 50  0000 C CNN
+F 2 "" V 2980 5950 50  0001 C CNN
 F 3 "~" H 3050 5950 50  0001 C CNN
 	1    3050 5950
 	0    1    1    0   
 $EndComp
-Text GLabel 2750 5550 3    60   Input ~ 0
-GND
-Text GLabel 2300 6950 3    60   Input ~ 0
-GND
-Text GLabel 14600 1750 3    60   Input ~ 0
-GND
 $EndSCHEMATC
