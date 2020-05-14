@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# C320C104M5U5TA
+#
+DEF C320C104M5U5TA C 0 40 Y N 1 L N
+F0 "C" 350 250 50 H V L BNN
+F1 "C320C104M5U5TA" 350 150 50 H V L BNN
+F2 "C320C" 0 0 50 H I L BNN
+F3 "Kemet" 0 0 50 H I L BNN
+F4 "70095209" 0 0 50 H I L BNN
+F5 "C320C104M5U5TA" 0 0 50 H I L BNN
+F6 "https://www.alliedelec.com/kemet-c320c104m5u5ta/70095209/" 0 0 50 H I L BNN
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=80-C320C104M5U" 0 0 50 H I L BNN
+F8 "80-C320C104M5U" 0 0 50 H I L BNN
+F9 "KEMET 100nF Multilayer Ceramic Capacitor MLCC 50V dc +/-20% Z5U Dielectric C320, Max. Temp. +85C" 0 0 50 H I L BNN
+F10 "https://uk.rs-online.com/web/p/products/8703823" 0 0 50 H I L BNN
+F11 "8703823" 0 0 50 H I L BNN
+F12 "mm" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 220 100 220 -100 N
+P 2 0 0 10 280 100 280 -100 N
+P 2 0 0 10 200 0 220 0 N
+P 2 0 0 10 280 0 300 0 N
+X 1 1 0 0 200 R 40 40 0 0 B 
+X 2 2 500 0 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

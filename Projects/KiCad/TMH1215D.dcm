@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMH1215D
+D TRACOPOWER 2W Isolated DC-DC Converter, Vin 10.8  13.2 V dc, Vout +/-15V dc, I/O isolation 1000V dc
+K
+F https://assets.tracopower.com/20190701131007/TMH/documents/tmh-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

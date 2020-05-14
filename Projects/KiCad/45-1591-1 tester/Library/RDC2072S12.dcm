@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RDC2072S12
+D XP Power RDC 20W Isolated DC-DC Converter Through Hole, Vin 36  140 V dc, Vout 12V dc Railway Approved
+K
+F https://www.xppower.com/Portals/0/pdfs/SF_RDC20.pdf
+$ENDCMP
+#
+#End Doc Library

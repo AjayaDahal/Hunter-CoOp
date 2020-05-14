@@ -1,4 +1,4 @@
-update=3/4/2020 2:17:33 PM
+update=3/18/2020 2:37:32 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,6 +68,7 @@ LibName36=C:/Users/adahal/Desktop/AJ/Hunter CoOp/Projects/KiCad/45-1599-1 tester
 LibName37=C:/Users/adahal/Desktop/AJ/Hunter CoOp/Projects/KiCad/45-1599-1 tester/kicad-library-master/library/switch_dpdt
 LibName38=C:/Users/adahal/Desktop/AJ/Hunter CoOp/Projects/KiCad/45-1599-1 tester/kicad-library-master/library/switch_spdt
 LibName39=C:/Users/adahal/Desktop/AJ/Hunter CoOp/Projects/KiCad/45-1599-1 tester/kicad-library-master/library/switches
+LibName40=TMH1215D
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

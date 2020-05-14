@@ -279,4 +279,25 @@ X 2 2 300 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# TMH1215D
+#
+DEF TMH1215D PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "TMH1215D" 1050 200 50 H V L CNN
+F2 "TMH0505D" 1050 100 50 H I L CNN
+F3 "https://assets.tracopower.com/20190701131007/TMH/documents/tmh-datasheet.pdf" 1050 0 50 H I L CNN
+F4 "TRACOPOWER 2W Isolated DC-DC Converter, Vin 10.8  13.2 V dc, Vout +/-15V dc, I/O isolation 1000V dc" 1050 -100 50 H I L CNN "Description"
+F5 "10.2" 1050 -200 50 H I L CNN "Height"
+F6 "Traco Power" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TMH1215D" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +VIN_(VCC) 1 0 0 200 R 50 50 0 0 U
+X -VIN_(GND) 2 0 -100 200 R 50 50 0 0 U
+X -VOUT 4 0 -200 200 R 50 50 0 0 U
+X COMMON 5 0 -300 200 R 50 50 0 0 U
+X +VOUT 6 0 -400 200 R 50 50 0 0 U
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

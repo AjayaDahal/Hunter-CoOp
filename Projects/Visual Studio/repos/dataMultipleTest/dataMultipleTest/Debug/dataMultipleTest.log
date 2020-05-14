@@ -1,6 +1,1 @@
-﻿  driver.cpp
-C:\Users\adahal\Desktop\AJ\Visual Studio\repos\dataMultipleTest\dataMultipleTest\func.h(98,2): warning C4018: '<': signed/unsigned mismatch
-C:\Users\adahal\Desktop\AJ\Visual Studio\repos\dataMultipleTest\dataMultipleTest\func.h(94): message : while compiling class template member function 'void defectPart<std::string>::display(void)'
-C:\Users\adahal\Desktop\AJ\Visual Studio\repos\dataMultipleTest\dataMultipleTest\driver.cpp(120): message : see reference to function template instantiation 'void defectPart<std::string>::display(void)' being compiled
-C:\Users\adahal\Desktop\AJ\Visual Studio\repos\dataMultipleTest\dataMultipleTest\driver.cpp(112): message : see reference to class template instantiation 'defectPart<std::string>' being compiled
-  dataMultipleTest.vcxproj -> C:\Users\adahal\Desktop\AJ\Visual Studio\repos\dataMultipleTest\Debug\dataMultipleTest.exe
+﻿  dataMultipleTest.vcxproj -> C:\Users\adahal\Desktop\AJ\Projects\Visual Studio\repos\dataMultipleTest\Debug\dataMultipleTest.exe

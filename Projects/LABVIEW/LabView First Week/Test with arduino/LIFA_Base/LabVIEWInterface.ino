@@ -737,7 +737,7 @@ void syncLV()
 // Compute Packet Checksum
 unsigned char checksum_Compute(unsigned char command[])
 {
-  unsigned char checksum;
+  unsigned char checksum = 0;
   for (int i=0; i<(COMMANDLENGTH-1); i++)
   {
     checksum += command[i]; 

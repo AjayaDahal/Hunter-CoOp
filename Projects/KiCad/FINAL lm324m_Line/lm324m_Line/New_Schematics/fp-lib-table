@@ -1,4 +1,6 @@
 (fp_lib_table
+  (lib (name EC2-5NU)(type KiCad)(uri "C:/Users/adahal/Desktop/AJ/FINAL lm324m_Line/lm324m_Line/EC2-5NU")(options "")(descr ""))
+  (lib (name 2N3904)(type KiCad)(uri "C:/Users/adahal/Desktop/AJ/FINAL lm324m_Line/lm324m_Line/2N3904")(options "")(descr ""))
   (lib (name FUSE)(type KiCad)(uri "C:/Users/adahal/Desktop/AJ/FINAL lm324m_Line/lm324m_Line/FUSE")(options "")(descr ""))
   (lib (name lm324m_Line)(type KiCad)(uri "C:/Users/adahal/Desktop/AJ/FINAL lm324m_Line/lm324m_Line")(options "")(descr ""))
   (lib (name "2 pin male connector")(type KiCad)(uri "C:/Users/adahal/Desktop/AJ/FINAL lm324m_Line/lm324m_Line/2 pin male connector.pretty")(options "")(descr ""))
@@ -6,7 +8,4 @@
   (lib (name Diode)(type KiCad)(uri "C:/Users/adahal/Desktop/AJ/FINAL lm324m_Line/lm324m_Line/Diode")(options "")(descr ""))
   (lib (name ARDUINO_NANO)(type KiCad)(uri "C:/Users/adahal/Desktop/AJ/FINAL lm324m_Line/lm324m_Line/ARDUINO_NANO")(options "")(descr ""))
   (lib (name L293D)(type KiCad)(uri "C:/Users/adahal/Desktop/AJ/FINAL lm324m_Line/lm324m_Line/L293D")(options "")(descr ""))
-  (lib (name EC2-5NU)(type KiCad)(uri "C:/Program Files/KiCad/share/kicad/My Library/EC2-5NU")(options "")(descr ""))
-  (lib (name 2N3904)(type KiCad)(uri "C:/Program Files/KiCad/share/kicad/My Library/2N3904")(options "")(descr ""))
-  (lib (name "10k pot trimmer")(type KiCad)(uri "C:/Program Files/KiCad/share/kicad/My Library/3306F-1-503")(options "")(descr ""))
 )

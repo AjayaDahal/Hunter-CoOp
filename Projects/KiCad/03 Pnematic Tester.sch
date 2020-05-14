@@ -38,6 +38,7 @@ LIBS:sw_push_small_h
 LIBS:switch_dpdt
 LIBS:switch_spdt
 LIBS:switches
+LIBS:TMH1215D
 LIBS:03 Pnematic Tester-cache
 EELAYER 25 0
 EELAYER END
@@ -70,7 +71,7 @@ L EC2-5NU K1
 U 1 1 5E5EBABA
 P 2750 2425
 F 0 "K1" H 2550 2755 50  0000 L BNN
-F 1 "EC2-12NU" H 2550 2025 50  0000 L BNN
+F 1 "EC2-24NU" H 2550 2025 50  0000 L BNN
 F 2 "EC2-12NU:RELAY_EC2-5NU" H 2750 2425 50  0001 L BNN
 F 3 "Manufacturer recommendations" H 2750 2425 50  0001 L BNN
 F 4 "9.4mm" H 2750 2425 50  0001 L BNN "Field4"
@@ -124,7 +125,7 @@ L EC2-5NU K2
 U 1 1 5E5EE9BF
 P 2750 4100
 F 0 "K2" H 2550 4430 50  0000 L BNN
-F 1 "EC2-12NU" H 2550 3700 50  0000 L BNN
+F 1 "EC2-24NU" H 2550 3700 50  0000 L BNN
 F 2 "EC2-12NU:RELAY_EC2-5NU" H 2750 4100 50  0001 L BNN
 F 3 "Manufacturer recommendations" H 2750 4100 50  0001 L BNN
 F 4 "9.4mm" H 2750 4100 50  0001 L BNN "Field4"
@@ -178,7 +179,7 @@ L EC2-5NU K3
 U 1 1 5E5EEA83
 P 2750 5775
 F 0 "K3" H 2550 6105 50  0000 L BNN
-F 1 "EC2-12NU" H 2550 5375 50  0000 L BNN
+F 1 "EC2-24NU" H 2550 5375 50  0000 L BNN
 F 2 "EC2-12NU:RELAY_EC2-5NU" H 2750 5775 50  0001 L BNN
 F 3 "Manufacturer recommendations" H 2750 5775 50  0001 L BNN
 F 4 "9.4mm" H 2750 5775 50  0001 L BNN "Field4"
@@ -232,7 +233,7 @@ L EC2-5NU K4
 U 1 1 5E5EEB7F
 P 2750 7100
 F 0 "K4" H 2550 7430 50  0000 L BNN
-F 1 "EC2-12NU" H 2550 6700 50  0000 L BNN
+F 1 "EC2-24NU" H 2550 6700 50  0000 L BNN
 F 2 "EC2-12NU:RELAY_EC2-5NU" H 2750 7100 50  0001 L BNN
 F 3 "Manufacturer recommendations" H 2750 7100 50  0001 L BNN
 F 4 "9.4mm" H 2750 7100 50  0001 L BNN "Field4"
@@ -284,23 +285,23 @@ NoConn ~ 3050 7300
 $Comp
 L LED D6
 U 1 1 5E5F1526
-P 3975 825
-F 0 "D6" H 3975 925 50  0000 C CNN
-F 1 "LED" H 3975 725 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" H 3975 825 50  0001 C CNN
-F 3 "" H 3975 825 50  0001 C CNN
-	1    3975 825 
+P 5925 925
+F 0 "D6" H 5925 1025 50  0000 C CNN
+F 1 "LED" H 5925 825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" H 5925 925 50  0001 C CNN
+F 3 "" H 5925 925 50  0001 C CNN
+	1    5925 925 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D7
 U 1 1 5E5F1575
-P 4525 825
-F 0 "D7" H 4525 925 50  0000 C CNN
-F 1 "LED" H 4525 725 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" H 4525 825 50  0001 C CNN
-F 3 "" H 4525 825 50  0001 C CNN
-	1    4525 825 
+P 6475 925
+F 0 "D7" H 6475 1025 50  0000 C CNN
+F 1 "LED" H 6475 825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" H 6475 925 50  0001 C CNN
+F 3 "" H 6475 925 50  0001 C CNN
+	1    6475 925 
 	0    -1   -1   0   
 $EndComp
 Text GLabel 4250 2475 2    60   Input ~ 0
@@ -322,17 +323,17 @@ SOL_Outlet_Right
 $Comp
 L GND #PWR6
 U 1 1 5E5F771B
-P 3975 1300
-F 0 "#PWR6" H 3975 1050 50  0001 C CNN
-F 1 "GND" H 3975 1150 50  0000 C CNN
-F 2 "" H 3975 1300 50  0001 C CNN
-F 3 "" H 3975 1300 50  0001 C CNN
-	1    3975 1300
+P 5925 1400
+F 0 "#PWR6" H 5925 1150 50  0001 C CNN
+F 1 "GND" H 5925 1250 50  0000 C CNN
+F 2 "" H 5925 1400 50  0001 C CNN
+F 3 "" H 5925 1400 50  0001 C CNN
+	1    5925 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 4275 675  3    60   Input ~ 0
+Text GLabel 6225 775  3    60   Input ~ 0
 passLED
-Text GLabel 4825 675  3    60   Input ~ 0
+Text GLabel 6775 775  3    60   Input ~ 0
 failLED
 Text GLabel 7975 4675 2    60   Input ~ 0
 passLED
@@ -418,18 +419,14 @@ Text GLabel 2300 2525 0    60   Input ~ 0
 SOL_Inlet_Power
 Text GLabel 2300 4200 0    60   Input ~ 0
 SOL_Inlet_Ex_Power
-Text GLabel 2300 5875 0    60   Input ~ 0
-SOL_Outlet_Power
-Text GLabel 2300 7200 0    60   Input ~ 0
-SOL_Outlet_Ex_Power
 Text GLabel 9825 4725 2    60   Input ~ 0
 SOL_Inlet_Power
 Text GLabel 9800 3900 2    60   Input ~ 0
 SOL_Inlet_Ex_Power
 Text GLabel 9800 3125 2    60   Input ~ 0
-SOL_Outlet_Power
+SOL_Outlet_B_Power
 Text GLabel 9800 2375 2    60   Input ~ 0
-SOL_Outlet_Ex_Power
+SOL_Outlet_A_Power
 $Comp
 L CONN_01X02_MALE J7
 U 1 1 5E604E76
@@ -442,60 +439,60 @@ F 3 "" H 9525 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 825  7350 3    60   Input ~ 0
-12V
+24V
 Text GLabel 6575 5175 0    60   Input ~ 0
 pushButton
 NoConn ~ 6575 3875
 $Comp
 L LED D5
 U 1 1 5E6127FE
-P 3450 825
-F 0 "D5" H 3450 925 50  0000 C CNN
-F 1 "LED" H 3450 725 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" H 3450 825 50  0001 C CNN
-F 3 "" H 3450 825 50  0001 C CNN
-	1    3450 825 
+P 5400 925
+F 0 "D5" H 5400 1025 50  0000 C CNN
+F 1 "LED" H 5400 825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" H 5400 925 50  0001 C CNN
+F 3 "" H 5400 925 50  0001 C CNN
+	1    5400 925 
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7975 4775 2    60   Input ~ 0
 amberLED
-Text GLabel 1950 1075 2    60   Input ~ 0
-12V
-Text GLabel 3750 675  3    60   Input ~ 0
+Text GLabel 1900 1075 2    60   Input ~ 0
+24V
+Text GLabel 5700 775  3    60   Input ~ 0
 amberLED
 $Comp
 L R R1
 U 1 1 5E618ACB
-P 3600 675
-F 0 "R1" V 3680 675 50  0000 C CNN
-F 1 "R" V 3600 675 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3530 675 50  0001 C CNN
-F 3 "" H 3600 675 50  0001 C CNN
-	1    3600 675 
+P 5550 775
+F 0 "R1" V 5630 775 50  0000 C CNN
+F 1 "R" V 5550 775 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 775 50  0001 C CNN
+F 3 "" H 5550 775 50  0001 C CNN
+	1    5550 775 
 	0    -1   -1   0   
 $EndComp
 Text Notes 650  1875 0    60   ~ 0
-The switch has a LED built in.\n Once the switch is turned on, arduino\n gets curent and the led turns on. \nBarrel jack digikey: CP-066A-ND\nSwitch digikey: EG5690-ND
+The switch has a LED built in.\n Once the switch is turned on, VRM \n gets curent and also the built-in led turns on in the switch. \nBarrel jack digikey: CP-066A-ND ("Gajanta"(?)) \nSwitch digikey: EG5690-ND
 $Comp
 L R R2
 U 1 1 5E61C9E3
-P 4125 675
-F 0 "R2" V 4205 675 50  0000 C CNN
-F 1 "R" V 4125 675 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4055 675 50  0001 C CNN
-F 3 "" H 4125 675 50  0001 C CNN
-	1    4125 675 
+P 6075 775
+F 0 "R2" V 6155 775 50  0000 C CNN
+F 1 "R" V 6075 775 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6005 775 50  0001 C CNN
+F 3 "" H 6075 775 50  0001 C CNN
+	1    6075 775 
 	0    1    1    0   
 $EndComp
 $Comp
 L R R3
 U 1 1 5E61CAB1
-P 4675 675
-F 0 "R3" V 4755 675 50  0000 C CNN
-F 1 "R" V 4675 675 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4605 675 50  0001 C CNN
-F 3 "" H 4675 675 50  0001 C CNN
-	1    4675 675 
+P 6625 775
+F 0 "R3" V 6705 775 50  0000 C CNN
+F 1 "R" V 6625 775 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6555 775 50  0001 C CNN
+F 3 "" H 6625 775 50  0001 C CNN
+	1    6625 775 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -564,7 +561,7 @@ L CONN_01X04_MALE J2
 U 1 1 5E6BB802
 P 1600 625
 F 0 "J2" H 1600 1000 50  0000 C CNN
-F 1 "switch placeholder" V 1750 1375 50  0000 C CNN
+F 1 "switch placeholder" V 1600 -75 50  0000 C CNN
 F 2 "" H 1600 925 50  0001 C CNN
 F 3 "" H 1600 925 50  0001 C CNN
 	1    1600 625 
@@ -708,14 +705,14 @@ Wire Wire Line
 Wire Wire Line
 	1625 1125 1625 1200
 Wire Wire Line
-	3450 975  3450 1225
+	5400 1075 5400 1325
 Wire Wire Line
-	3450 1225 4525 1225
+	5400 1325 6475 1325
 Wire Wire Line
-	4525 1225 4525 975 
+	6475 1325 6475 1075
 Wire Wire Line
-	3975 975  3975 1300
-Connection ~ 3975 1225
+	5925 1075 5925 1400
+Connection ~ 5925 1325
 Wire Wire Line
 	6500 1950 6775 1950
 Connection ~ 6625 1950
@@ -728,8 +725,6 @@ Wire Wire Line
 Connection ~ 1500 1125
 Wire Wire Line
 	1700 925  1700 1075
-Wire Wire Line
-	1700 1075 1950 1075
 Wire Wire Line
 	1900 1075 1900 925 
 Connection ~ 1900 1075
@@ -746,4 +741,54 @@ F 3 "" H 9250 1675 50  0001 C CNN
 $EndComp
 Text GLabel 9450 1775 2    60   Input ~ 0
 12V
+Text Notes 1975 250  0    60   ~ 0
+TMH 2412S will be used to regulate to 24v to 12V
+$Comp
+L TMH1215D PS?
+U 1 1 5E727EC9
+P 2900 950
+F 0 "PS?" H 3950 1250 50  0000 L CNN
+F 1 "TMH2412S" H 3950 1150 50  0000 L CNN
+F 2 "TMH0505D" H 3950 1050 50  0001 L CNN
+F 3 "https://assets.tracopower.com/20190701131007/TMH/documents/tmh-datasheet.pdf" H 3950 950 50  0001 L CNN
+F 4 "TRACOPOWER 2W Isolated DC-DC Converter, Vin 10.8  13.2 V dc, Vout +/-15V dc, I/O isolation 1000V dc" H 3950 850 50  0001 L CNN "Description"
+F 5 "10.2" H 3950 750 50  0001 L CNN "Height"
+F 6 "Traco Power" H 3950 650 50  0001 L CNN "Manufacturer_Name"
+F 7 "TMH1215D" H 3950 550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 3950 450 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 3950 350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3950 250 50  0001 L CNN "RS Part Number"
+F 11 "" H 3950 150 50  0001 L CNN "RS Price/Stock"
+	1    2900 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 950  0    60   Input ~ 0
+24V
+$Comp
+L GND #PWR?
+U 1 1 5E728AE4
+P 2625 1050
+F 0 "#PWR?" H 2625 800 50  0001 C CNN
+F 1 "GND" H 2625 900 50  0000 C CNN
+F 2 "" H 2625 1050 50  0001 C CNN
+F 3 "" H 2625 1050 50  0001 C CNN
+	1    2625 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 1050 2900 1050
+Text GLabel 2900 1350 0    60   Input ~ 0
+12V
+Text GLabel 1775 1075 3    60   Input ~ 0
+12V
+Wire Wire Line
+	1700 1075 1775 1075
+Text GLabel 2300 5875 0    60   Input ~ 0
+SOL_Outlet_A_Power
+Text GLabel 2300 7200 0    60   Input ~ 0
+SOL_Outlet_B_Power
+NoConn ~ 2900 1250
+NoConn ~ 2900 1150
+Text Notes 4725 600  0    60   ~ 0
+Are we using 12V LED? Here is one big one that I found in Digikey (Part# PCL2212V100B-ND)?
 $EndSCHEMATC
